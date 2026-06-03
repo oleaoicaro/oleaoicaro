@@ -5,6 +5,9 @@ config/answer-bank.md
 application-tracker.csv
 daily-log-*.md
 
+# Generated CV variant HTML (regenerable via build_variants.py; PDFs are the deliverable)
+cv/output/variants/*.html
+
 # Python
 __pycache__/
 *.pyc
