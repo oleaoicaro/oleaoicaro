@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""Build per-bank tailored CV PDFs (PT) from the single source of truth.
+"""Build per-ROLE tailored CV PDFs (PT) from the single source of truth.
 
 Each variant overrides ONLY the `headline` and `executive_summary` of the
-PT profile to mirror the keyword cluster of a specific bank's GRC/Compliance
-opening. Every other field comes verbatim from `cv/data/profile.yaml` —
-nothing is invented; this is reframing, not new content.
+PT profile to mirror the keyword cluster of a specific GRC/Compliance ROLE
+(not a specific bank — the same role recurs across banks). Every other field
+comes verbatim from `cv/data/profile.yaml` — nothing is invented; this is
+reframing, not new content.
 
-Output: cv/output/variants/Icaro_Leao_CV_PT_<Bank>.{html,pdf}
+Which role CV to use for which bank opening is mapped in
+`outreach/alvos-bancos-grc.md`.
+
+Output: cv/output/variants/Icaro_Leao_CV_PT_<Role>.{html,pdf}
 
 Usage:
     python cv/scripts/build_variants.py
@@ -26,15 +30,16 @@ log = logging.getLogger(__name__)
 OUTPUT = TEMPLATES.parent / "output" / "variants"
 OUTPUT.mkdir(parents=True, exist_ok=True)
 
-# Per-bank overrides (PT only — target market is Brazilian banks).
-# slug -> {headline, executive_summary}. Derived from real role types found
-# on each bank's careers portal / LinkedIn (see outreach/alvos-bancos-grc.md).
+# Per-ROLE overrides (PT only — target market is Brazilian banks).
+# slug -> {headline, executive_summary}. Each slug is a GRC/Compliance role
+# archetype that recurs across banks; the bank→role mapping lives in
+# outreach/alvos-bancos-grc.md.
 VARIANTS = {
-    "Safra": {
+    "Compliance-Regulatorio": {
         "headline": (
-            "Especialista em Compliance & Controles Internos | PLD-FT · "
-            "Compliance Regulatório · BACEN/CVM | Testes de Conformidade · "
-            "ISO 37301 · IBM OpenPages | EY FSO · CRC ativo"
+            "Especialista em Compliance Regulatório & Controles Internos | PLD-FT · "
+            "BACEN/SUSEP/CVM | Monitoramento e Testes de Conformidade · ISO 37301 · "
+            "IBM OpenPages | EY FSO · CRC ativo"
         ),
         "executive_summary": (
             "Especialista em compliance regulatório e controles internos no setor "
@@ -45,10 +50,10 @@ VARIANTS = {
             "em 4 dashboards. CRC ativo (1SP336304)."
         ),
     },
-    "Santander": {
+    "Controles-Internos": {
         "headline": (
-            "Especialista Sênior em Controles Internos & Compliance Regulatório | "
-            "SOX · COSO · ISO 37301 | BACEN/SUSEP/CMN · LGPD | Testes de Controles · "
+            "Especialista Sênior em Controles Internos (Regulatório) | SOX · COSO · "
+            "ISO 37301 | BACEN/SUSEP/CMN · LGPD | Testes de Design e Efetividade · "
             "IBM OpenPages | EY FSO"
         ),
         "executive_summary": (
@@ -61,25 +66,26 @@ VARIANTS = {
             "CRC ativo (1SP336304)."
         ),
     },
-    "Itau": {
+    "Risco-Operacional": {
         "headline": (
-            "Especialista em Riscos & Compliance | Risco Operacional · ERM · KRI/KCI | "
-            "IBM OpenPages · Power BI · Python | BACEN/SUSEP · LGPD | EY FSO · CRC ativo"
+            "Especialista em Risco Operacional & Compliance | ERM · KRI/KCI · "
+            "Risk Reporting | IBM OpenPages · Power BI · Python | BACEN/SUSEP · LGPD | "
+            "EY FSO · CRC ativo"
         ),
         "executive_summary": (
-            "Profissional de riscos e compliance no setor financeiro regulado (EY FSO), "
-            "unindo gestão de riscos operacionais (ERM, KRIs, heatmap corporativo de "
-            "riscos) a automação de dados (Python, Power BI) — entreguei redução de 99% "
-            "no ciclo de risk reporting (16h para 8min). Mapeei mais de 200 normas "
+            "Especialista em risco operacional e compliance no setor financeiro regulado "
+            "(EY FSO), unindo gestão de riscos (ERM, KRIs, heatmap corporativo de riscos) "
+            "a automação de dados (Python, Power BI) — entreguei redução de 99% no ciclo "
+            "de risk reporting (16h para 8min). Mapeei mais de 200 normas "
             "(BACEN/SUSEP/ANS/LGPD) em IBM OpenPages, alinhado a SOX e ISO 37301. "
             "CRC ativo (1SP336304)."
         ),
     },
-    "Bradesco": {
+    "Gestao-Riscos-LGPD": {
         "headline": (
-            "Especialista em Gestão de Riscos & Controles | Risco Operacional · LGPD · "
-            "Compliance Regulatório | Framework de Riscos · IBM OpenPages · Power BI | "
-            "EY FSO · CRC ativo"
+            "Especialista em Gestão de Riscos & Privacidade (LGPD) | Framework de Riscos · "
+            "Risco Operacional · Compliance Regulatório | BACEN 4.557 · COSO ERM · "
+            "IBM OpenPages · Power BI | EY FSO · CRC ativo"
         ),
         "executive_summary": (
             "Especialista em gestão de riscos e controles no setor financeiro regulado "
@@ -89,10 +95,11 @@ VARIANTS = {
             "risk intelligence, com 22 KRIs em 4 dashboards. CRC ativo (1SP336304)."
         ),
     },
-    "BTG": {
+    "Compliance-Mercado-Capitais": {
         "headline": (
-            "Compliance & Risk Specialist | Compliance Regulatório BACEN/CVM · TPRM · "
-            "ISO 37301 | Banking & Fintechs | IBM OpenPages · Power BI | EY FSO · CRC ativo"
+            "Compliance & Risk Specialist — Banking & Mercado de Capitais | "
+            "Compliance Regulatório BACEN/CVM · TPRM · ISO 37301 | IBM OpenPages · "
+            "Power BI | CPA-20 (em andamento) | EY FSO · CRC ativo"
         ),
         "executive_summary": (
             "Mais de 7 anos em compliance e riscos no setor financeiro regulado (EY FSO), "
