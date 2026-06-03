@@ -8,7 +8,7 @@
 
 ## Sobre
 
-Sou auditor / consultor com trajetória em **risco, conformidade regulatória e auditoria** — TCE-PI (auditoria governamental), EY (Banking & Insurance Advisory) e projetos próprios em **fintech / regtech**. CRC ativo (1SP336304).
+Sou **Especialista Sênior em Riscos & Compliance (GRC)** no setor financeiro regulado — gestão de riscos, controles internos e compliance regulatório, com ponte entre os regimes prudenciais de **seguros (SUSEP)** e **bancário (BACEN/CMN)**. Atuo como **Consultor Sênior na EY FSO** (Financial Services Office). Trajetória anterior em auditoria governamental (TCE-PI), contabilidade (CRC ativo, 1SP336304) e projetos próprios em **fintech / regtech** com camada de dados e IA.
 
 Este repositório é a **infraestrutura** que sustenta meu reposicionamento profissional: o currículo é gerado a partir de dados estruturados (YAML) com templates Jinja2 + WeasyPrint, e o outreach segue um plano operacional com KPIs semanais.
 
@@ -27,7 +27,7 @@ Tudo que você precisa para avaliar minha aderência a uma vaga está em **um ú
 | 🎓 Cursos & Certificações | [`cv/Cursos_e_Certificacoes.md`](cv/Cursos_e_Certificacoes.md) | **284 treinamentos (2022–2026)** organizados por área temática — destaques em GenAI, AML, LGPD, Banking & Insurance |
 | 📊 Planilha de cursos | [`cv/Cursos_e_Certificacoes.csv`](cv/Cursos_e_Certificacoes.csv) | Mesma listagem, filtrável em Excel/Google Sheets |
 
-> **Em uma frase**: 7+ anos em GRC/Compliance no setor financeiro regulado (EY FSO, Top 5 seguradoras, Top 3 conglomerados BR), com track record em SOX, IBM OpenPages, BACEN/SUSEP/ANS, automação (Python · Power BI) e governança de IA. CRC ativo (1SP336304).
+> **Em uma frase**: 7+ anos em GRC/Compliance no setor financeiro regulado (EY FSO, Top 5 seguradoras, Top 3 conglomerados BR), com ponte regulatória **SUSEP 638/2021 ↔ CMN 4.893 / BACEN 4.557**, track record em SOX, COSO, ISO 37301, IBM OpenPages e frameworks de controle (ISO 27001, NIST CSF, COBIT 2019), além de automação (Python · Power BI) e governança de IA (ISO/IEC 42001). CRC ativo (1SP336304).
 
 ## O que mais tem aqui
 
@@ -76,6 +76,6 @@ Saída em [`cv/output/`](cv/output/). Detalhes (paleta, fontes, fallback Playwri
 
 ## About (English)
 
-Personal repository of **Ícaro Vieira Leão** — Risk, Compliance & Audit professional (TCE-PI, EY Banking & Insurance Advisory). Hosts an automated executive CV builder (PT/EN, HTML + PDF) driven by a single YAML source, a 4-week outreach playbook, and a LinkedIn auto-apply agent integration.
+Personal repository of **Ícaro Vieira Leão** — Senior Risk & Compliance (GRC) specialist in the regulated financial sector (EY FSO), bridging insurance (SUSEP) and banking (BACEN/CMN) prudential regimes. Hosts an automated executive CV builder (PT/EN, HTML + PDF) driven by a single YAML source, a 4-week outreach playbook, and a LinkedIn auto-apply agent integration.
 
 Generated CV (English): [`cv/output/Icaro_Leao_CV_EN.pdf`](cv/output/Icaro_Leao_CV_EN.pdf) · Courses & Certifications (PT, 284 trainings 2022–2026): [`cv/Cursos_e_Certificacoes.md`](cv/Cursos_e_Certificacoes.md) · LinkedIn: [linkedin.com/in/oleaoicaro](https://www.linkedin.com/in/oleaoicaro)
