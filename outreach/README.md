@@ -7,6 +7,7 @@ Material de apoio à execução do plano de outreach de 4 semanas (Fase 6 do pro
 ```
 outreach/
 ├── plano_4_semanas.md               # Plano operacional com KPIs semanais
+├── alvos-bancos-grc.md              # 🎯 Lista-alvo de vagas GRC nos bancos BR + CV sob medida
 ├── templates/
 │   ├── 01_connection_request.md     # Pedido de conexão (máx. 300 chars)
 │   ├── 02_inmail_pos_aplicacao.md   # Mensagem pós-aplicação
