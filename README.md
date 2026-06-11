@@ -22,8 +22,8 @@ Tudo que você precisa para avaliar minha aderência a uma vaga está em **um ú
 
 | Material | Arquivo | Descrição |
 |---|---|---|
-| 📄 Currículo (PT) | [`cv/output/Icaro_Leao_CV_PT.pdf`](cv/output/Icaro_Leao_CV_PT.pdf) | CV executivo em português, 2 páginas |
-| 📄 Currículo (EN) | [`cv/output/Icaro_Leao_CV_EN.pdf`](cv/output/Icaro_Leao_CV_EN.pdf) | Executive CV in English, 2 pages |
+| 📄 Currículo (PT) | [`cv/output/Icaro_Leao_CV_PT.pdf`](cv/output/Icaro_Leao_CV_PT.pdf) | CV executivo em português, 3 páginas |
+| 📄 Currículo (EN) | [`cv/output/Icaro_Leao_CV_EN.pdf`](cv/output/Icaro_Leao_CV_EN.pdf) | Executive CV in English, 3 pages |
 | 🎓 Cursos & Certificações | [`cv/Cursos_e_Certificacoes.md`](cv/Cursos_e_Certificacoes.md) | **284 treinamentos (2022–2026)** organizados por área temática — destaques em GenAI, AML, LGPD, Banking & Insurance |
 | 📊 Planilha de cursos | [`cv/Cursos_e_Certificacoes.csv`](cv/Cursos_e_Certificacoes.csv) | Mesma listagem, filtrável em Excel/Google Sheets |
 
