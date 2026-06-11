@@ -8,7 +8,7 @@ pt:
     linkedin: "linkedin.com/in/oleaoicaro"
     github: "github.com/oleaoicaro"
 
-  headline: "Especialista Sênior em Riscos & Compliance (GRC) | Compliance Regulatório · Riscos Operacionais · Controles Internos | Consultor Sênior EY FSO — Seguros · Banking · Fintechs | IBM OpenPages · SOX · COSO · ISO 37301 | BACEN 4.557/4.893 · SUSEP 638/2021 · CMN · ANS · LGPD | Python · Power BI · CRC 1SP336304"
+  headline: "Especialista Sênior em Riscos & Compliance (GRC) | Consultor Sênior EY FSO — Seguros · Banking · Fintechs | Controles Internos · Compliance Regulatório · Riscos Operacionais | BACEN · SUSEP 638/2021 · LGPD | Python · Power BI | CRC 1SP336304"
 
   executive_summary: >
     Mais de 7 anos em GRC/Compliance no setor financeiro regulado (EY FSO, Top 5 seguradoras,
@@ -30,23 +30,20 @@ pt:
         - "ISO 37301"
         - "ISO 27001"
         - "NIST CSF"
+        - "COBIT 2019"
         - "Three Lines Model"
         - "PLD-FT"
         - "Controls Testing"
     - group: "Regulação Financeira"
       skills:
         - "BACEN (Res. 4.557/4.658/4.595/4.606/4.966)"
+        - "CMN 4.893/2021 (Cibersegurança)"
         - "SUSEP (Circ. 638/2021)"
         - "CNSP 416/2021"
         - "ANS"
         - "LGPD"
         - "Open Banking"
         - "Basileia III"
-    - group: "Conhecimento Regulatório em Desenvolvimento"
-      skills:
-        - "CMN 4.893/2021 (Cibersegurança)"
-        - "CMN 4.966/2021 (IFRS 9 / Perdas Esperadas)"
-        - "COBIT 2019"
     - group: "Riscos & Auditoria"
       skills:
         - "ERM"
@@ -120,27 +117,57 @@ pt:
             - "Liderou conformidade <strong>BACEN (Res. 4.557/4.893/4.595)</strong>, SOX e TPRM com <strong>mais de 30 fornecedores mensais</strong> e due diligence regulatória em <strong>mais de R$ 14bi anual</strong> (conglomerado Top 3 BR)"
 
   projects:
+    - name: "Especificação Técnica GRC — IBM OpenPages"
+      status: "Entregue (EY)"
+      description: "Condução da especificação técnica da implementação enterprise de GRC em <strong>IBM OpenPages</strong>, alinhada a <strong>SOX, COSO e ISO 37301</strong> — base do mapeamento de <strong>200+ normas</strong> (SUSEP/ANS/BACEN/LGPD) no programa de transformação de Compliance de seguradora <strong>Top 5 BR</strong>."
+      highlights: []
+      stack: "IBM OpenPages · SOX · COSO · ISO 37301"
+      metrics: ""
     - name: "Heatmap Corporativo de Riscos (IBM OpenPages + Python)"
       status: "Entregue (EY)"
       description: "200+ normas (SUSEP/ANS/BACEN/LGPD) integradas via ETL Python; risk reporting trimestral reduzido de <strong>16h → 8min (−99%)</strong>. Visualização interativa integrando probabilidade × impacto × criticidade regulatória em Power BI. Adotado pelo cliente como padrão de reporting aos grupos de trabalhos e replicado em mais 3 engagements EY."
       highlights: []
       stack: "Python · IBM OpenPages · Power BI · SQL Server"
       metrics: ""
-    - name: "Banking Advisory Program"
+    - name: "Assessoria Regulatória BACEN — Banking (Tradicional & Digital)"
       status: "Entregue (EY)"
-      description: "Arquitetou framework de governança integrando <strong>BACEN 4.557 + SOX + COSO ERM</strong> para conglomerado <strong>Top 3 BR</strong>. Coordenou TPRM de <strong>mais de 30 fornecedores críticos mensais</strong> (cloud, core banking, pagamentos) com due diligence L1/L2/L3. Entregou relatório executivo para Board com roadmap de <strong>18 meses</strong> e investimento estimado em <strong>mais de R$ 15M</strong>."
+      description: "Assessoria em conformidade regulatória <strong>BACEN</strong> para bancos e fintechs: análise de aderência às <strong>Res. 4.557</strong> (Gestão de Riscos), <strong>4.658</strong> (Cibersegurança) e <strong>4.595</strong> (Open Banking); mapeamento de controles internos para <strong>SOX</strong> e frameworks de Operational Risk; suporte em due diligence regulatória e <strong>Third-Party Risk Assessment</strong>."
       highlights: []
-      stack: "BACEN 4.557 · SOX · COSO ERM · TPRM"
+      stack: "BACEN · SOX · Operational Risk · TPRM"
       metrics: ""
-    - name: "SUSEP Benchmarking Platform (SaaS)"
-      status: "Em produção"
-      description: "Plataforma analítica cobrindo <strong>todas as seguradoras cadastradas na SUSEP</strong> (dados públicos): <strong>5M+ registros/mês</strong>, score proprietário de <strong>10 pilares</strong>, <strong>10+ dashboards</strong>. ETL automatizado com atualização semanal. <strong>Em produção até maio/2026</strong>, em validação com <strong>3 prospects</strong> no mercado segurador brasileiro em junho/2026."
+    - name: "SUSEP Benchmarking Platform"
+      status: "Projeto pessoal · em desenvolvimento"
+      description: "Plataforma de inteligência analítica para o mercado segurador brasileiro sobre <strong>dados abertos da SUSEP</strong>: dashboards executivos com KPIs, rankings competitivos, análise de sinistralidade e benchmarking entre seguradoras. Ingestão de <strong>5M+ registros/mês</strong> via ETL Python automatizado e score proprietário de <strong>10 pilares</strong>. <strong>MVP em desenvolvimento</strong> — ainda não publicado em produção."
       highlights: []
       stack: "Python · FastAPI · PostgreSQL · Docker"
       metrics: ""
+    - name: "Antifraud System"
+      status: "Projeto pessoal · MVP"
+      description: "Sistema de detecção de fraudes financeiras com IA e revisão humana: motor com <strong>30+ regras</strong> (padrões transacionais anômalos, velocidade, geolocalização, device fingerprinting, score comportamental), dashboard de KPIs de detecção e workflow de revisão por analistas — desenhado sob ótica de compliance (LGPD, transparência algorítmica, auditabilidade)."
+      highlights: []
+      stack: "React · TypeScript · Node.js · PostgreSQL · scikit-learn"
+      metrics: ""
+    - name: "Regulatory Intelligence Hub"
+      status: "Projeto pessoal · em desenvolvimento"
+      description: "[PREENCHER: descrição em 1–2 frases do que o hub faz — ex.: monitoramento de normativos, classificação por impacto, alertas]"
+      highlights: []
+      stack: "Python"
+      metrics: ""
+    - name: "Compliance (web)"
+      status: "Projeto pessoal"
+      description: "[PREENCHER: descrição em 1 frase do projeto 'compliance' (repo HTML, abr/2026)]"
+      highlights: []
+      stack: ""
+      metrics: ""
+    - name: "Retroalimentação"
+      status: "Projeto pessoal"
+      description: "[PREENCHER: descrição em 1 frase do projeto 'retroalimentacao' (repo HTML, mai/2026)]"
+      highlights: []
+      stack: ""
+      metrics: ""
 
   education:
-    - degree: "Graduação em Ciência de Dados com ênfase em IA"
+    - degree: "Graduação em Análise de Dados com foco em IA"
       institution: "Descomplica Faculdade Digital"
       period: "jul/2024 – jan/2027 (em andamento)"
     - degree: "Bacharelado em Ciências Contábeis"
@@ -176,7 +203,7 @@ en:
     linkedin: "linkedin.com/in/oleaoicaro"
     github: "github.com/oleaoicaro"
 
-  headline: "Senior Risk & Compliance (GRC) Specialist | Regulatory Compliance · Operational Risk · Internal Controls | Senior Consultant EY FSO — Insurance · Banking · Fintechs | IBM OpenPages · SOX · COSO · ISO 37301 | BACEN 4.557/4.893 · SUSEP 638/2021 · CMN · ANS · LGPD | Python · Power BI · CRC 1SP336304"
+  headline: "Senior Risk & Compliance (GRC) Specialist | Senior Consultant EY FSO — Insurance · Banking · Fintechs | Internal Controls · Regulatory Compliance · Operational Risk | BACEN · SUSEP 638/2021 · LGPD | Python · Power BI | CRC 1SP336304"
 
   executive_summary: >
     Over 7 years in GRC/Compliance within the regulated financial sector (EY FSO, Top 5 insurers,
@@ -198,23 +225,20 @@ en:
         - "ISO 37301"
         - "ISO 27001"
         - "NIST CSF"
+        - "COBIT 2019"
         - "Three Lines Model"
         - "AML/KYC (PLD-FT)"
         - "Controls Testing"
     - group: "Financial Regulation"
       skills:
         - "BACEN (Res. 4.557/4.658/4.595/4.606/4.966)"
+        - "CMN 4.893/2021 (Cybersecurity Policy)"
         - "SUSEP (Circ. 638/2021)"
         - "CNSP 416/2021"
         - "ANS"
         - "LGPD"
         - "Open Banking"
         - "Basel III"
-    - group: "Regulatory Knowledge in Progress"
-      skills:
-        - "CMN 4.893/2021 (Cybersecurity Policy)"
-        - "CMN 4.966/2021 (IFRS 9 / Expected Credit Losses)"
-        - "COBIT 2019"
     - group: "Risk & Audit"
       skills:
         - "ERM"
@@ -288,27 +312,57 @@ en:
             - "Led <strong>BACEN compliance (Res. 4.557/4.893/4.595)</strong>, SOX and TPRM with <strong>more than 30 monthly vendors</strong> and regulatory due diligence on <strong>more than R$ 14bn annually</strong> (Top 3 BR conglomerate)"
 
   projects:
+    - name: "GRC Technical Specification — IBM OpenPages"
+      status: "Delivered (EY)"
+      description: "Led the technical specification of the enterprise GRC implementation on <strong>IBM OpenPages</strong>, aligned with <strong>SOX, COSO and ISO 37301</strong> — foundation for mapping <strong>200+ regulations</strong> (SUSEP/ANS/BACEN/LGPD) in the Compliance transformation programme of a <strong>Top 5 BR</strong> insurer."
+      highlights: []
+      stack: "IBM OpenPages · SOX · COSO · ISO 37301"
+      metrics: ""
     - name: "Corporate Risk Heatmap (IBM OpenPages + Python)"
       status: "Delivered (EY)"
       description: "200+ regulations (SUSEP/ANS/BACEN/LGPD) integrated via Python ETL; quarterly risk reporting reduced from <strong>16h → 8min (−99%)</strong>. Interactive visualisation integrating probability × impact × regulatory criticality in Power BI. Adopted by the client as the reporting standard for working groups and replicated across 3 additional EY engagements."
       highlights: []
       stack: "Python · IBM OpenPages · Power BI · SQL Server"
       metrics: ""
-    - name: "Banking Advisory Program"
+    - name: "BACEN Regulatory Advisory — Banking (Traditional & Digital)"
       status: "Delivered (EY)"
-      description: "Architected governance framework integrating <strong>BACEN 4.557 + SOX + COSO ERM</strong> for <strong>Top 3 BR</strong> conglomerate. Coordinated TPRM for <strong>more than 30 critical monthly vendors</strong> (cloud, core banking, payments) with L1/L2/L3 due diligence. Delivered executive report to the Board with an <strong>18-month</strong> roadmap and estimated investment of <strong>more than R$ 15M</strong>."
+      description: "<strong>BACEN</strong> regulatory compliance advisory for banks and fintechs: adherence analysis to <strong>Res. 4.557</strong> (Risk Management), <strong>4.658</strong> (Cybersecurity) and <strong>4.595</strong> (Open Banking); internal controls mapping for <strong>SOX</strong> and Operational Risk frameworks; support in regulatory due diligence and <strong>Third-Party Risk Assessment</strong>."
       highlights: []
-      stack: "BACEN 4.557 · SOX · COSO ERM · TPRM"
+      stack: "BACEN · SOX · Operational Risk · TPRM"
       metrics: ""
-    - name: "SUSEP Benchmarking Platform (SaaS)"
-      status: "In production"
-      description: "Analytical platform covering <strong>all insurers registered with SUSEP</strong> (public data): <strong>5M+ records/month</strong>, proprietary <strong>10-pillar</strong> risk score, <strong>10+ dashboards</strong>. Automated ETL with weekly updates. <strong>In production until May/2026</strong>, in validation with <strong>3 prospects</strong> in the Brazilian insurance market in June/2026."
+    - name: "SUSEP Benchmarking Platform"
+      status: "Personal project · in development"
+      description: "Analytical intelligence platform for the Brazilian insurance market over <strong>SUSEP open data</strong>: executive dashboards with KPIs, competitive rankings, loss-ratio analysis and insurer benchmarking. Ingestion of <strong>5M+ records/month</strong> via automated Python ETL and proprietary <strong>10-pillar</strong> score. <strong>MVP in development</strong> — not yet released to production."
       highlights: []
       stack: "Python · FastAPI · PostgreSQL · Docker"
       metrics: ""
+    - name: "Antifraud System"
+      status: "Personal project · MVP"
+      description: "Financial fraud detection system with AI and human review: engine with <strong>30+ rules</strong> (anomalous transaction patterns, velocity, geolocation, device fingerprinting, behavioural score), detection KPI dashboard and analyst review workflow — designed from a compliance standpoint (LGPD, algorithmic transparency, auditability)."
+      highlights: []
+      stack: "React · TypeScript · Node.js · PostgreSQL · scikit-learn"
+      metrics: ""
+    - name: "Regulatory Intelligence Hub"
+      status: "Personal project · in development"
+      description: "[TO FILL: 1–2 sentence description of what the hub does — e.g. regulatory monitoring, impact classification, alerts]"
+      highlights: []
+      stack: "Python"
+      metrics: ""
+    - name: "Compliance (web)"
+      status: "Personal project"
+      description: "[TO FILL: 1-sentence description of the 'compliance' project (HTML repo, Apr/2026)]"
+      highlights: []
+      stack: ""
+      metrics: ""
+    - name: "Retroalimentação"
+      status: "Personal project"
+      description: "[TO FILL: 1-sentence description of the 'retroalimentacao' project (HTML repo, May/2026)]"
+      highlights: []
+      stack: ""
+      metrics: ""
 
   education:
-    - degree: "B.Sc. in Data Science with AI Specialisation"
+    - degree: "B.Sc. in Data Analysis with AI focus"
       institution: "Descomplica Faculdade Digital"
       period: "Jul/2024 – Jan/2027 (in progress)"
     - degree: "B.Sc. in Accounting Sciences"
