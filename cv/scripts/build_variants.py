@@ -37,76 +37,77 @@ OUTPUT.mkdir(parents=True, exist_ok=True)
 VARIANTS = {
     "Compliance-Regulatorio": {
         "headline": (
-            "Especialista em Compliance Regulatório & Controles Internos | PLD-FT · "
-            "BACEN/SUSEP/CVM | Monitoramento e Testes de Conformidade · ISO 37301 · "
-            "IBM OpenPages | EY FSO · CRC ativo"
+            "Especialista em Compliance Regulatório & Controles Internos | "
+            "Setor Financeiro — PLD-FT · BACEN · SUSEP · CVM | "
+            "Consultor Sênior na EY (FSO) | CRC ativo"
         ),
         "executive_summary": (
-            "Especialista em compliance regulatório e controles internos no setor "
-            "financeiro (EY FSO), com atuação em PLD-FT, monitoramento e testes de "
-            "conformidade (design e efetividade) sobre normas BACEN/SUSEP/CVM. "
-            "Implementei programa de compliance enterprise via IBM OpenPages alinhado "
-            "a SOX e ISO 37301, testando mais de 60 controles e estruturando 22 KRIs "
-            "em 4 dashboards. CRC ativo (1SP336304)."
+            "Transformo norma em controle que funciona no dia a dia. Especialista em "
+            "compliance regulatório e controles internos no setor financeiro (EY FSO): "
+            "implementei o programa de compliance corporativo de uma grande seguradora "
+            "(IBM OpenPages, ISO 37301, SOX), testei mais de 60 controles — incluindo "
+            "PLD-FT — e estruturei 22 KRIs de monitoramento contínuo sobre normas "
+            "BACEN, SUSEP, CVM e LGPD. Contador de formação, CRC ativo (1SP336304)."
         ),
     },
     "Controles-Internos": {
         "headline": (
-            "Especialista Sênior em Controles Internos (Regulatório) | SOX · COSO · "
-            "ISO 37301 | BACEN/SUSEP/CMN · LGPD | Testes de Design e Efetividade · "
-            "IBM OpenPages | EY FSO"
+            "Especialista Sênior em Controles Internos (Regulatório) | "
+            "SOX · COSO · Testes de Design e Efetividade | "
+            "Consultor Sênior na EY (FSO) | CRC ativo"
         ),
         "executive_summary": (
             "Mais de 7 anos em controles internos e compliance regulatório no setor "
-            "financeiro regulado (EY FSO). Testei mais de 60 controles internos "
-            "(design e efetividade), classifiquei 35 achados (15 críticos) com root "
-            "cause analysis e planos de ação, e liderei conformidade SOX e BACEN. "
-            "Operacionalizei a Circular SUSEP 638/2021 (gestão de riscos, controles "
-            "internos e compliance), análoga a CMN 4.893/2021 e BACEN 4.557. "
-            "CRC ativo (1SP336304)."
+            "financeiro. Testei mais de 60 controles (design e efetividade), "
+            "classifiquei 35 achados — 15 críticos — com análise de causa-raiz e "
+            "planos de ação negociados com as áreas, e liderei frentes SOX e BACEN. "
+            "Operacionalizei a Circular SUSEP 638/2021, o espelho segurador da "
+            "CMN 4.893 e da BACEN 4.557. CRC ativo (1SP336304)."
         ),
     },
     "Risco-Operacional": {
         "headline": (
-            "Especialista em Risco Operacional & Compliance | ERM · KRI/KCI · "
-            "Risk Reporting | IBM OpenPages · Power BI · Python | BACEN/SUSEP · LGPD | "
-            "EY FSO · CRC ativo"
+            "Especialista em Risco Operacional & Compliance | ERM · KRIs · "
+            "Risk Reporting | Power BI · Python | "
+            "Consultor Sênior na EY (FSO) | CRC ativo"
         ),
         "executive_summary": (
-            "Especialista em risco operacional e compliance no setor financeiro regulado "
-            "(EY FSO), unindo gestão de riscos (ERM, KRIs, heatmap corporativo de riscos) "
-            "a automação de dados (Python, Power BI) — entreguei redução de 99% no ciclo "
-            "de risk reporting (16h para 8min). Mapeei mais de 200 normas "
-            "(BACEN/SUSEP/ANS/LGPD) em IBM OpenPages, alinhado a SOX e ISO 37301. "
+            "Especialista em risco operacional que automatiza o próprio trabalho: "
+            "construí o heatmap corporativo de riscos de uma grande seguradora — mais "
+            "de 200 normas BACEN, SUSEP, ANS e LGPD em IBM OpenPages — e reduzi o "
+            "risk reporting de 16 horas para 8 minutos com Python e Power BI. ERM, "
+            "KRIs e auditoria risk-based no setor financeiro regulado (EY FSO). "
             "CRC ativo (1SP336304)."
         ),
     },
     "Gestao-Riscos-LGPD": {
         "headline": (
-            "Especialista em Gestão de Riscos & Privacidade (LGPD) | Framework de Riscos · "
-            "Risco Operacional · Compliance Regulatório | BACEN 4.557 · COSO ERM · "
-            "IBM OpenPages · Power BI | EY FSO · CRC ativo"
+            "Especialista em Gestão de Riscos & Privacidade (LGPD) | "
+            "BACEN 4.557 · COSO ERM · TPRM | Power BI · Python | "
+            "Consultor Sênior na EY (FSO) | CRC ativo"
         ),
         "executive_summary": (
             "Especialista em gestão de riscos e controles no setor financeiro regulado "
-            "(EY FSO). Estruturei framework de riscos e controles integrando BACEN 4.557, "
-            "SOX e COSO ERM, com TPRM de mais de 50 fornecedores críticos e cobertura de "
-            "LGPD em auditorias risk-based. Forte camada de dados (Power BI, Python) para "
-            "risk intelligence, com 22 KRIs em 4 dashboards. CRC ativo (1SP336304)."
+            "(EY FSO). Estruturei o framework de riscos integrando BACEN 4.557, SOX e "
+            "COSO ERM, monitorei mais de 50 fornecedores críticos (TPRM) e cobri LGPD "
+            "em auditorias risk-based — sempre com uma camada de dados (Power BI, "
+            "Python) que transforma risco em indicador: 22 KRIs em 4 dashboards. "
+            "CRC ativo (1SP336304)."
         ),
     },
     "Compliance-Mercado-Capitais": {
         "headline": (
             "Compliance & Risk Specialist — Banking & Mercado de Capitais | "
-            "Compliance Regulatório BACEN/CVM · TPRM · ISO 37301 | IBM OpenPages · "
-            "Power BI | CPA-20 (em andamento) | EY FSO · CRC ativo"
+            "BACEN · CVM · TPRM · Due Diligence | CPA-20 em andamento | "
+            "Consultor Sênior na EY (FSO) | CRC ativo"
         ),
         "executive_summary": (
-            "Mais de 7 anos em compliance e riscos no setor financeiro regulado (EY FSO), "
-            "com programas de conformidade BACEN, TPRM de mais de 30 fornecedores críticos "
-            "(cloud, core banking, pagamentos) e due diligence regulatória em mais de "
-            "R$ 14bi/ano para conglomerado Top 3 BR. Une fluência regulatória a automação "
-            "(Python, Power BI). CPA-20 (ANBIMA) em andamento. CRC ativo (1SP336304)."
+            "Mais de 7 anos em compliance e riscos no setor financeiro (EY FSO): "
+            "programas de conformidade BACEN, TPRM de mais de 30 fornecedores críticos "
+            "(cloud, core banking, pagamentos) e due diligence regulatória sobre mais "
+            "de R$ 14 bilhões anuais em conglomerado Top 3 BR. Uno a leitura "
+            "regulatória à automação com dados (Python, Power BI). CPA-20 (ANBIMA) em "
+            "andamento; CRC ativo (1SP336304)."
         ),
     },
 }
