@@ -40,6 +40,7 @@ O restante deste repositório é **infraestrutura** que sustenta o portfólio ac
 | [`ai-job-agent/`](ai-job-agent/) | Submódulo: agente externo de candidaturas no LinkedIn ([AkbarDevop/ai-job-agent](https://github.com/AkbarDevop/ai-job-agent)). | [docs/AI-JOB-AGENT.md](docs/AI-JOB-AGENT.md) |
 | [`config/`](config/) | Templates de configuração para o agente (credenciais, perfil, banco de respostas) — arquivos reais ficam fora do git. | — |
 | [`docs/`](docs/) | Documentação operacional + `archive/` com histórico do projeto e dados-fonte dos cursos. | [docs/archive/README.md](docs/archive/README.md) |
+| [`docs/AI-CONTEXT.md`](docs/AI-CONTEXT.md) | **Contexto para agentes de IA**: consolidação das capacidades técnicas e de IA demonstradas em todos os repositórios do portfólio (`regulatoryintelligencehub`, `susep-benchmarking`, `Antifraudsystem`, `retroalimentacao`, `compliance`) — permite que uma IA trabalhando só com este repositório entenda o portfólio completo. | [docs/AI-CONTEXT.md](docs/AI-CONTEXT.md) |
 
 ## Quickstart — Gerar o currículo
 

@@ -56,7 +56,7 @@
   
   <div class="comp-group">
     <span class="comp-group-name">Tecnologia & Dados:</span>
-    <span class="comp-group-list">Python · FastAPI · SQL · Power BI (DAX) · ETL · Power Automate · AI Governance (ISO/IEC 42001)</span>
+    <span class="comp-group-list">Python · FastAPI · SQL · React · TypeScript · Power BI (DAX) · ETL · Web Scraping · Docker · Power Automate · Integração LLM (OpenAI · GenAI) · AI Governance (ISO/IEC 42001)</span>
   </div>
   
   <div class="comp-group">
@@ -191,14 +191,14 @@
   <div class="project-entry">
     <div class="proj-header-row">
       <span class="proj-name">SUSEP Benchmarking Platform</span>
-      <span class="proj-status">Projeto pessoal · em desenvolvimento</span>
+      <span class="proj-status">Projeto pessoal · v3.2</span>
     </div>
     
-    <p class="proj-desc">Plataforma de inteligência analítica para o mercado segurador brasileiro sobre <strong>dados abertos da SUSEP</strong>: dashboards executivos com KPIs, rankings competitivos, análise de sinistralidade e benchmarking entre seguradoras. Ingestão de <strong>5M+ registros/mês</strong> via ETL Python automatizado e score proprietário de <strong>10 pilares</strong>. <strong>MVP em desenvolvimento</strong> — ainda não publicado em produção.</p>
+    <p class="proj-desc">Plataforma de inteligência analítica do mercado segurador brasileiro sobre <strong>dados abertos da SUSEP</strong>: <strong>13+ datasets</strong> integrados via ETL automatizado (agendamento mensal, fallback Playwright), score de risco proprietário de <strong>10 pilares</strong>, KRIs de solvência/sinistralidade/compliance, processos sancionadores, dashboards interativos e <strong>assistente de chat com IA</strong> especializado no mercado segurador (integração LLM via OAuth2). Autenticação JWT + Google OAuth, planos Free/Pro e deploy via Docker.</p>
     
     
     
-    <div class="proj-stack">Stack: Python · FastAPI · PostgreSQL · Docker</div>
+    <div class="proj-stack">Stack: Python · FastAPI · SQLAlchemy · Pandas · Plotly · Docker · LLM/Chat IA</div>
     
     
   </div>
@@ -206,14 +206,14 @@
   <div class="project-entry">
     <div class="proj-header-row">
       <span class="proj-name">Antifraud System</span>
-      <span class="proj-status">Projeto pessoal · MVP</span>
+      <span class="proj-status">Projeto pessoal · MVP (front-end)</span>
     </div>
     
-    <p class="proj-desc">Sistema de detecção de fraudes financeiras com IA e revisão humana: motor com <strong>30+ regras</strong> (padrões transacionais anômalos, velocidade, geolocalização, device fingerprinting, score comportamental), dashboard de KPIs de detecção e workflow de revisão por analistas — desenhado sob ótica de compliance (LGPD, transparência algorítmica, auditabilidade).</p>
+    <p class="proj-desc">Plataforma de detecção e gestão de fraudes em <strong>sinistros de seguros de vida e previdência</strong>: motor de scoring com <strong>44 regras</strong> em 6 dimensões (documental, temporal, estatística, lógica, comportamental e contextual), workflow de análise com visualização em grafo, dashboards executivos com mapa geográfico de exposição e gestão de performance de time — com MFA, perfis de acesso por papel (analista/gestor/executivo/admin) e parametrização de regras, desenhado sob ótica de compliance SUSEP (transparência algorítmica, auditabilidade).</p>
     
     
     
-    <div class="proj-stack">Stack: React · TypeScript · Node.js · PostgreSQL · scikit-learn</div>
+    <div class="proj-stack">Stack: React · TypeScript · Vite · Tailwind · Radix UI · Recharts</div>
     
     
   </div>
@@ -224,37 +224,41 @@
       <span class="proj-status">Projeto pessoal · em desenvolvimento</span>
     </div>
     
-    <p class="proj-desc">[PREENCHER: descrição em 1–2 frases do que o hub faz — ex.: monitoramento de normativos, classificação por impacto, alertas]</p>
+    <p class="proj-desc">Plataforma full-stack de GRC — um <strong>"Bloomberg regulatório"</strong>: coleta automatizada de normas <strong>SUSEP</strong> (scraping resiliente Playwright + agendamento Celery, arquitetura multi-regulador pronta para BACEN/CVM/ANS), <strong>enriquecimento por IA</strong> (resumo automático, classificação temática e score de impacto regulatório via LLM com fallback heurístico) e fluxo GRC completo: encaminhamento por empresa × área, classificação de risco, planos de ação, testes de controles e painel de conformidade. Clean Architecture + DDD, JWT/RBAC, auditoria append-only e observabilidade (Prometheus).</p>
     
     
     
-    <div class="proj-stack">Stack: Python</div>
-    
-    
-  </div>
-  
-  <div class="project-entry">
-    <div class="proj-header-row">
-      <span class="proj-name">Compliance (web)</span>
-      <span class="proj-status">Projeto pessoal</span>
-    </div>
-    
-    <p class="proj-desc">[PREENCHER: descrição em 1 frase do projeto 'compliance' (repo HTML, abr/2026)]</p>
-    
-    
+    <div class="proj-stack">Stack: Python · FastAPI · Next.js/TypeScript · PostgreSQL · Celery/Redis · Playwright · OpenAI API · Docker</div>
     
     
   </div>
   
   <div class="project-entry">
     <div class="proj-header-row">
-      <span class="proj-name">Retroalimentação</span>
-      <span class="proj-status">Projeto pessoal</span>
+      <span class="proj-name">AIRNC — Análise de Normas Regulatórias (Compliance)</span>
+      <span class="proj-status">Projeto pessoal · em uso</span>
     </div>
     
-    <p class="proj-desc">[PREENCHER: descrição em 1 frase do projeto 'retroalimentacao' (repo HTML, mai/2026)]</p>
+    <p class="proj-desc">Ferramenta corporativa de gestão de normas regulatórias e planos de ação (demandas <strong>SUSEP</strong>): SPA <strong>offline-first sem servidor</strong> com sincronização em rede corporativa via File System Access API (SharePoint), merge inteligente com dirty-tracking, trilha de auditoria completa (usuário/antes/depois) e ETL em Python que consolida criticidade por matriz <strong>Frequência × Impacto</strong> e gera heatmaps embutidos em relatórios Excel multi-aba.</p>
     
     
+    
+    <div class="proj-stack">Stack: JavaScript · SheetJS · Python (pandas · matplotlib · openpyxl) · Power BI</div>
+    
+    
+  </div>
+  
+  <div class="project-entry">
+    <div class="proj-header-row">
+      <span class="proj-name">Retroalimentação de Risco Regulatório</span>
+      <span class="proj-status">Projeto pessoal · em uso</span>
+    </div>
+    
+    <p class="proj-desc">Sistema de <strong>retroalimentação de risco regulatório</strong>: recalcula o risco de normas (matriz Frequência × Impacto 5×5) a partir de <strong>evidências reais</strong> — autos de infração, auditorias internas, ofícios SUSEP e autoavaliação — via motor de <strong>26 regras de negócio configuráveis</strong>, comparando risco base × risco agravado com rastreabilidade regra a regra. Auto-classificação de normas por aprendizado de keywords, governança de pesos GRC, auditoria com diff e entrega como <strong>HTML autossuficiente</strong> (roda sem servidor).</p>
+    
+    
+    
+    <div class="proj-stack">Stack: React 19 · TypeScript · Vite · Tailwind/shadcn · Recharts · Vitest</div>
     
     
   </div>
