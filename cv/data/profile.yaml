@@ -8,18 +8,16 @@ pt:
     linkedin: "linkedin.com/in/oleaoicaro"
     github: "github.com/oleaoicaro"
 
-  headline: "Especialista Sênior em Riscos & Compliance (GRC) | Consultor Sênior EY FSO — Seguros · Banking · Fintechs | Controles Internos · Compliance Regulatório · Riscos Operacionais | BACEN · SUSEP 638/2021 · LGPD | Python · Power BI | CRC 1SP336304"
+  headline: "Especialista em Riscos, Controles Internos & Compliance Regulatório | Setor Financeiro — Seguros · Banking · Saúde | Consultor Sênior na EY (FSO) | CRC ativo 1SP336304"
 
   executive_summary: >
-    Mais de 7 anos em GRC/Compliance no setor financeiro regulado (EY FSO, Top 5 seguradoras,
-    conglomerados Top 3 BR, operadoras ANS) e 15 anos de trajetória profissional total.
-    Especialista em gestão de riscos, controles internos e compliance regulatório, com ponte
-    entre os regimes prudenciais de seguros e bancário — operacionalização da Circular SUSEP
-    638/2021 (gestão de riscos, controles internos e compliance), análoga a CMN 4.893/2021 e
-    BACEN 4.557. Une fluência regulatória (SOX, COSO, ISO 37301, BACEN/SUSEP/ANS, LGPD) a uma
-    camada de dados e IA (Python, Power BI, automação e governança de IA), entregando redução
-    de até 99% em ciclos de risk reporting e governança de controles em ambientes de R$ 14bi+
-    em ativos. CRC ativo (1SP336304).
+    15 anos de trajetória profissional, sendo mais de 7 em gestão de riscos, compliance
+    e auditoria interna. Experiência em seguradoras Top 5, conglomerado bancário Top 3 e
+    operadoras de saúde. Na EY, liderei a implementação do GRC corporativo (IBM OpenPages)
+    em uma grande seguradora, mapeando mais de 200 normas (SUSEP, BACEN, ANS, ANPD) e
+    reduzindo ciclos de monitoramento e risk reporting. Integro leitura regulatória
+    (incluindo SOX, COSO e ISO 37301) com automação em dados e IA (Python, Power BI).
+    Contador com CRC ativo.
 
   competencies:
     - group: "GRC & Compliance"
@@ -100,71 +98,59 @@ pt:
           period: "ago/2025 – presente"
           client: "Seguradora de Ramos Elementares | Programa Plurianual de Transformação de Compliance"
           bullets:
-            - "Coordenou programa plurianual de transformação de Compliance em seguradora <strong>Top 5 Brasil</strong>, liderando equipe com mais de 5 participantes entre analistas e consultores e reportando diretamente aos stakeholders C-Level"
-            - "Liderou implementação enterprise de GRC via <strong>IBM OpenPages</strong> alinhado a <strong>SOX, COSO e ISO 37301</strong>, operacionalizando a <strong>Circular SUSEP 638/2021</strong> (gestão de riscos, controles internos e compliance) e mapeando <strong>mais de 200 normas</strong> (SUSEP, ANS, BACEN, LGPD)"
-            - "Reduziu ciclo de avaliação e monitoramento de normas em <strong>60% (45→18 dias)</strong> e eliminou <strong>99% do esforço manual</strong> em risk reporting (<strong>16h→8min</strong>)"
-            - "Estruturou compliance intelligence com <strong>22 KRIs</strong> em 4 dashboards, TPRM com mais de <strong>50 fornecedores críticos</strong> e solução de identificação de eventos de não conformidade regulatória"
+            - "Coordenei o programa plurianual de transformação de Compliance de uma seguradora <strong>Top 5 Brasil</strong>, com equipe de 5+ profissionais e reporte direto ao C-Level"
+            - "Liderei a implementação do GRC corporativo em <strong>IBM OpenPages</strong>, gerando o mapeamento de <strong>mais de 200 normas</strong> (BACEN, ANS, LGPD) com base em SOX, COSO e ISO 37301, e encurtando o ciclo de avaliação de normas em <strong>60%</strong> (de aproximadamente 45 para 18 dias)"
+            - "Estruturei a inteligência de compliance da operação: <strong>22 KRIs</strong> em 4 dashboards para diferentes áreas e empresas, reduzindo o risk reporting de <strong>16 horas para 8 minutos</strong> e eliminando 99% do esforço manual via Python"
+            - "Operacionalizei a <strong>Circular SUSEP 638/2021</strong> com monitoramento de <strong>50+ fornecedores relevantes</strong> (TPRM) e identificação de eventos de não conformidade"
         - title: "Risk Consultant"
           period: "out/2023 – jul/2025"
-          client: "Operadora de Plano Odontológico (ANS) | Auditoria Interna"
+          client: "Operadora de Plano Odontológico, Plano de Saúde e Seguradora | Auditoria Interna e Controle Interno"
           bullets:
-            - "Conduziu <strong>3</strong> e apoiou em <strong>9 auditorias internas risk-based</strong> em operadora ANS (<strong>600k+ beneficiários</strong>), cobrindo sinistralidade, glosas, PLD-FT e LGPD"
-            - "Testou <strong>mais de 60 controles internos</strong> (design + efetividade), classificou <strong>35 achados</strong> (15 críticos) e conduziu root cause analysis com planos de ação negociados"
-            - "Aplicou <strong>IA generativa (GenEY)</strong> com revisão humana para triagem de <strong>mais de 150 normativos</strong> (ANS/BACEN/LGPD), aumentando em <strong>85%</strong> a eficiência analítica"
+            - "Conduzi atividades de auditoria interna e de controles internos <strong>risk-based</strong>, cobrindo sinistralidade, glosas, PLD-FT e LGPD"
+            - "Testei <strong>mais de 60 controles internos</strong> (design e efetividade) e classifiquei os achados por criticidade — com análise de causa-raiz e planos de ação negociados com as áreas"
+            - "Usei <strong>IA generativa com revisão humana</strong> (GenEY) para apoiar todo o ciclo de vida dessas atividades — da análise de normas e definição do plano de teste à geração dos relatórios"
         - title: "Business Consultant / Consulting FSO Trainee"
           period: "fev/2022 – set/2023"
           client: "Seguradora Tradicional | Programa de Revitalização (8 meses) · Banking & Fintechs"
           bullets:
-            - "Atuou como <strong>PO estratégico</strong> de programa de revitalização em seguradora (aproximadamente <strong>R$ 200 milhões em prêmios</strong>): orquestrou <strong>25 iniciativas</strong> com Steering Committee quinzenal"
-            - "Desenhou <strong>8 jornadas de cliente</strong> e ciclo de vida de <strong>15 produtos</strong>"
-            - "Liderou conformidade <strong>BACEN (Res. 4.557/4.893/4.595)</strong>, SOX e TPRM com <strong>mais de 30 fornecedores mensais</strong> e due diligence regulatória em <strong>mais de R$ 14bi anual</strong> (conglomerado Top 3 BR)"
+            - "Fui <strong>PO estratégico</strong> do programa de revitalização de uma seguradora com cerca de <strong>R$ 200 milhões em prêmios</strong>, orquestrando <strong>25 iniciativas</strong> com Steering Committee quinzenal"
+            - "Apoiei no desenho de <strong>8 jornadas de cliente</strong> e no ciclo de vida de <strong>15 produtos</strong>"
+            - "Atuei brevemente na frente de conformidade, conduzindo due diligence regulatória em fintechs em transição de instituição de pagamento para instituição financeira, assegurando aderência às exigências normativas aplicáveis"
 
   projects:
-    - name: "Especificação Técnica GRC — IBM OpenPages"
-      status: "Entregue (EY)"
-      description: "Condução da especificação técnica da implementação enterprise de GRC em <strong>IBM OpenPages</strong>, alinhada a <strong>SOX, COSO e ISO 37301</strong> — base do mapeamento de <strong>200+ normas</strong> (SUSEP/ANS/BACEN/LGPD) no programa de transformação de Compliance de seguradora <strong>Top 5 BR</strong>."
-      highlights: []
-      stack: "IBM OpenPages · SOX · COSO · ISO 37301"
-      metrics: ""
     - name: "Heatmap Corporativo de Riscos (IBM OpenPages + Python)"
-      status: "Entregue (EY)"
-      description: "200+ normas (SUSEP/ANS/BACEN/LGPD) integradas via ETL Python; risk reporting trimestral reduzido de <strong>16h → 8min (−99%)</strong>. Visualização interativa integrando probabilidade × impacto × criticidade regulatória em Power BI. Adotado pelo cliente como padrão de reporting aos grupos de trabalhos e replicado em mais 3 engagements EY."
+      status: ""
+      description: "Painel executivo que responde \"onde está o nosso risco?\" em uma tela: mais de 200 normas cruzadas por probabilidade, impacto e criticidade regulatória, alimentadas automaticamente."
       highlights: []
       stack: "Python · IBM OpenPages · Power BI · SQL Server"
       metrics: ""
-    - name: "Assessoria Regulatória BACEN — Banking (Tradicional & Digital)"
-      status: "Entregue (EY)"
-      description: "Assessoria em conformidade regulatória <strong>BACEN</strong> para bancos e fintechs: análise de aderência às <strong>Res. 4.557</strong> (Gestão de Riscos), <strong>4.658</strong> (Cibersegurança) e <strong>4.595</strong> (Open Banking); mapeamento de controles internos para <strong>SOX</strong> e frameworks de Operational Risk; suporte em due diligence regulatória e <strong>Third-Party Risk Assessment</strong>."
-      highlights: []
-      stack: "BACEN · SOX · Operational Risk · TPRM"
-      metrics: ""
     - name: "SUSEP Benchmarking Platform"
-      status: "Projeto pessoal · v3.2"
-      description: "Plataforma de inteligência analítica do mercado segurador brasileiro sobre <strong>dados abertos da SUSEP</strong>: <strong>13+ datasets</strong> integrados via ETL automatizado (agendamento mensal, fallback Playwright), score de risco proprietário de <strong>10 pilares</strong>, KRIs de solvência/sinistralidade/compliance, processos sancionadores, dashboards interativos e <strong>assistente de chat com IA</strong> especializado no mercado segurador (integração LLM via OAuth2). Autenticação JWT + Google OAuth, planos Free/Pro e deploy via Docker."
+      status: ""
+      description: "Inteligência competitiva do mercado segurador construída sobre os dados abertos da SUSEP: rankings, sinistralidade, solvência e processos sancionadores de todas as seguradoras do país, resumidos em um score proprietário de 10 pilares. Mais de 13 bases integradas com atualização automática."
       highlights: []
       stack: "Python · FastAPI · SQLAlchemy · Pandas · Plotly · Docker · LLM/Chat IA"
       metrics: ""
     - name: "Antifraud System"
-      status: "Projeto pessoal · MVP (front-end)"
-      description: "Plataforma de detecção e gestão de fraudes em <strong>sinistros de seguros de vida e previdência</strong>: motor de scoring com <strong>44 regras</strong> em 6 dimensões (documental, temporal, estatística, lógica, comportamental e contextual), workflow de análise com visualização em grafo, dashboards executivos com mapa geográfico de exposição e gestão de performance de time — com MFA, perfis de acesso por papel (analista/gestor/executivo/admin) e parametrização de regras, desenhado sob ótica de compliance SUSEP (transparência algorítmica, auditabilidade)."
+      status: ""
+      description: "Detecção e gestão de fraudes em sinistros de vida e previdência: cada sinistro recebe um score a partir de regras em 6 dimensões, entra numa fila de análise com visualização das conexões entre os envolvidos e alimenta painéis executivos de exposição geográfica e desempenho do time. Desenhado para passar em auditoria: transparência algorítmica, trilhas de auditoria e acessos por perfil."
       highlights: []
       stack: "React · TypeScript · Vite · Tailwind · Radix UI · Recharts"
       metrics: ""
     - name: "Regulatory Intelligence Hub"
-      status: "Projeto pessoal · em desenvolvimento"
-      description: "Plataforma full-stack de GRC — um <strong>\"Bloomberg regulatório\"</strong>: coleta automatizada de normas <strong>SUSEP</strong> (scraping resiliente Playwright + agendamento Celery, arquitetura multi-regulador pronta para BACEN/CVM/ANS), <strong>enriquecimento por IA</strong> (resumo automático, classificação temática e score de impacto regulatório via LLM com fallback heurístico) e fluxo GRC completo: encaminhamento por empresa × área, classificação de risco, planos de ação, testes de controles e painel de conformidade. Clean Architecture + DDD, JWT/RBAC, auditoria append-only e observabilidade (Prometheus)."
+      status: ""
+      description: "Um \"Bloomberg regulatório\": captura automaticamente as publicações da SUSEP, resume cada norma e permite pontuar seu impacto, e organiza o tratamento de ponta a ponta — quem responde, plano de ação, teste de controle e painel de conformidade. Arquitetura pronta para estender a BACEN, CVM, ANS e outros."
       highlights: []
       stack: "Python · FastAPI · Next.js/TypeScript · PostgreSQL · Celery/Redis · Playwright · OpenAI API · Docker"
       metrics: ""
-    - name: "AIRNC — Análise de Normas Regulatórias (Compliance)"
-      status: "Projeto pessoal · em uso"
-      description: "Ferramenta corporativa de gestão de normas regulatórias e planos de ação (demandas <strong>SUSEP</strong>): SPA <strong>offline-first sem servidor</strong> com sincronização em rede corporativa via File System Access API (SharePoint), merge inteligente com dirty-tracking, trilha de auditoria completa (usuário/antes/depois) e ETL em Python que consolida criticidade por matriz <strong>Frequência × Impacto</strong> e gera heatmaps embutidos em relatórios Excel multi-aba."
+    - name: "Análise de Normas Regulatórias (Compliance)"
+      status: ""
+      description: "Ferramenta corporativa para gestão de normas e planos de ação SUSEP: roda no navegador sem servidor, sincroniza pelo SharePoint, mantém trilha de auditoria completa e consolida a criticidade das normas em Probabilidade × Impacto embutidos em relatórios Excel."
       highlights: []
-      stack: "JavaScript · SheetJS · Python (pandas · matplotlib · openpyxl) · Power BI"
+      stack: "JavaScript · SheetJS · Python (pandas · matplotlib · openpyxl)"
       metrics: ""
     - name: "Retroalimentação de Risco Regulatório"
-      status: "Projeto pessoal · em uso"
-      description: "Sistema de <strong>retroalimentação de risco regulatório</strong>: recalcula o risco de normas (matriz Frequência × Impacto 5×5) a partir de <strong>evidências reais</strong> — autos de infração, auditorias internas, ofícios SUSEP e autoavaliação — via motor de <strong>26 regras de negócio configuráveis</strong>, comparando risco base × risco agravado com rastreabilidade regra a regra. Auto-classificação de normas por aprendizado de keywords, governança de pesos GRC, auditoria com diff e entrega como <strong>HTML autossuficiente</strong> (roda sem servidor)."
+      status: ""
+      description: "Fecha o ciclo do risco regulatório: recalcula o risco de cada norma a partir de evidências reais — autos de infração, auditorias internas, ofícios SUSEP — por meio de regras configuráveis, mostrando regra a regra por que o risco subiu ou desceu."
       highlights: []
       stack: "React 19 · TypeScript · Vite · Tailwind/shadcn · Recharts · Vitest"
       metrics: ""
@@ -194,7 +180,7 @@ pt:
       description: "Empreendedorismo digital: criação, lançamento e gestão de infoprodutos; estratégia de conteúdo e campanhas em redes sociais; desenvolvimento de audiência e automação de marketing."
     - role: "Atividades Autônomas (Comércio)"
       period: "2010 – 2013"
-      description: "Iniciação profissional precoce: comércio e revenda informal, desenvolvimento de espírito empreendedor, gestão de relacionamento com clientes e noções de fluxo de caixa desde a adolescência."
+      description: "Iniciação profissional precoce: comércio e revenda informal, desenvolvimento de espírito empreendedor, gestão de relacionamento com clientes e noções de fluxo de caixa."
 
 en:
   identity:
@@ -206,18 +192,16 @@ en:
     linkedin: "linkedin.com/in/oleaoicaro"
     github: "github.com/oleaoicaro"
 
-  headline: "Senior Risk & Compliance (GRC) Specialist | Senior Consultant EY FSO — Insurance · Banking · Fintechs | Internal Controls · Regulatory Compliance · Operational Risk | BACEN · SUSEP 638/2021 · LGPD | Python · Power BI | CRC 1SP336304"
+  headline: "Risk, Internal Controls & Regulatory Compliance Specialist | Financial Services — Insurance · Banking · Health | Senior Consultant at EY (FSO) | Active CRC 1SP336304"
 
   executive_summary: >
-    Over 7 years in GRC/Compliance within the regulated financial sector (EY FSO, Top 5 insurers,
-    Top 3 BR conglomerates, ANS health operators) and 15 years of total professional trajectory.
-    Specialist in risk management, internal controls and regulatory compliance, bridging the
-    insurance and banking prudential regimes — operationalisation of SUSEP Circular 638/2021
-    (risk management, internal controls and compliance), analogous to CMN 4.893/2021 and
-    BACEN 4.557. Combines regulatory fluency (SOX, COSO, ISO 37301, BACEN/SUSEP/ANS, LGPD) with
-    a data and AI layer (Python, Power BI, automation and AI governance), delivering up to 99%
-    reduction in risk reporting cycles and controls governance in environments with R$ 14bn+
-    in assets. Active CRC (1SP336304).
+    15 years of professional experience, more than 7 of them in risk management,
+    compliance and internal audit. Experience across Top 5 insurers, a Top 3 banking
+    conglomerate and health operators. At EY, I led the corporate GRC implementation
+    (IBM OpenPages) at a major insurer, mapping 200+ regulations (SUSEP, BACEN, ANS,
+    ANPD) and shortening monitoring and risk reporting cycles. I combine regulatory
+    fluency (including SOX, COSO and ISO 37301) with data and AI automation (Python,
+    Power BI). Accountant with an active CRC.
 
   competencies:
     - group: "GRC & Compliance"
@@ -298,71 +282,59 @@ en:
           period: "Aug/2025 – Present"
           client: "Property & Casualty Insurance Company | Multi-Year Compliance Transformation Programme"
           bullets:
-            - "Coordinated multi-year Compliance transformation programme at <strong>Top 5 insurer</strong>, leading a team of more than 5 participants (analysts and consultants) and reporting directly to C-Level stakeholders"
-            - "Led end-to-end GRC implementation via <strong>IBM OpenPages</strong> aligned with <strong>SOX, COSO and ISO 37301</strong>, operationalising <strong>SUSEP Circular 638/2021</strong> (risk management, internal controls and compliance) and mapping <strong>more than 200 regulations</strong> (SUSEP, ANS, BACEN, LGPD)"
-            - "Reduced regulatory assessment and monitoring cycle by <strong>60% (45→18 days)</strong> and eliminated <strong>99% of manual effort</strong> in risk reporting (<strong>16h→8min</strong>)"
-            - "Structured compliance intelligence with <strong>22 KRIs</strong> across 4 dashboards, TPRM with more than <strong>50 critical vendors</strong> and regulatory non-compliance event identification solution"
+            - "Coordinated the multi-year Compliance transformation programme of a <strong>Top 5 Brazil</strong> insurer, with a team of 5+ professionals and direct reporting to C-Level"
+            - "Led the corporate GRC implementation on <strong>IBM OpenPages</strong>, driving the mapping of <strong>200+ regulations</strong> (BACEN, ANS, LGPD) grounded in SOX, COSO and ISO 37301, and shortening the regulatory assessment cycle by <strong>60%</strong> (from ~45 to 18 days)"
+            - "Built the operation's compliance intelligence: <strong>22 KRIs</strong> across 4 dashboards for different areas and entities, cutting risk reporting from <strong>16 hours to 8 minutes</strong> and eliminating 99% of the manual effort via Python"
+            - "Operationalised <strong>SUSEP Circular 638/2021</strong> with monitoring of <strong>50+ relevant vendors</strong> (TPRM) and identification of non-compliance events"
         - title: "Risk Consultant"
           period: "Oct/2023 – Jul/2025"
-          client: "Dental Health Plan Operator (ANS) | Internal Audit"
+          client: "Dental Plan, Health Plan and Insurance Operator | Internal Audit and Internal Controls"
           bullets:
-            - "Conducted <strong>3</strong> and supported <strong>9 risk-based internal audits</strong> at ANS operator (<strong>600k+ beneficiaries</strong>), covering loss ratio, claim denials, AML/KYC and LGPD"
-            - "Tested <strong>more than 60 internal controls</strong> (design + effectiveness), classified <strong>35 findings</strong> (15 critical) and conducted root-cause analysis with negotiated action plans"
-            - "Applied <strong>human-reviewed generative AI (GenEY)</strong> to screen <strong>more than 150 regulatory norms</strong> (ANS/BACEN/LGPD), increasing analytical efficiency by <strong>85%</strong>"
+            - "Conducted internal audit and internal controls activities (<strong>risk-based</strong>), covering loss ratio, claim denials, AML and LGPD"
+            - "Tested <strong>60+ internal controls</strong> (design and effectiveness) and classified findings by criticality — with root-cause analysis and action plans negotiated with the business"
+            - "Used <strong>human-reviewed generative AI</strong> (GenEY) to support the full lifecycle of these activities — from regulation analysis and test-plan definition to report generation"
         - title: "Business Consultant / Consulting FSO Trainee"
           period: "Feb/2022 – Sep/2023"
           client: "Traditional Insurance Company | Revitalisation Programme (8 mos) · Banking & Fintechs"
           bullets:
-            - "Served as <strong>Strategic PO</strong> of revitalisation programme at insurer with approximately <strong>R$ 200M in premiums</strong>: orchestrated <strong>25 initiatives</strong> with biweekly Steering Committee"
-            - "Designed <strong>8 customer journeys</strong> and lifecycle of <strong>15 products</strong>"
-            - "Led <strong>BACEN compliance (Res. 4.557/4.893/4.595)</strong>, SOX and TPRM with <strong>more than 30 monthly vendors</strong> and regulatory due diligence on <strong>more than R$ 14bn annually</strong> (Top 3 BR conglomerate)"
+            - "Served as <strong>strategic PO</strong> of the revitalisation programme at an insurer with around <strong>R$ 200 million in premiums</strong>, orchestrating <strong>25 initiatives</strong> with a biweekly Steering Committee"
+            - "Supported the design of <strong>8 customer journeys</strong> and the lifecycle of <strong>15 products</strong>"
+            - "Briefly worked on the compliance front, conducting regulatory due diligence at fintechs transitioning from payment institution to financial institution, ensuring adherence to the applicable regulatory requirements"
 
   projects:
-    - name: "GRC Technical Specification — IBM OpenPages"
-      status: "Delivered (EY)"
-      description: "Led the technical specification of the enterprise GRC implementation on <strong>IBM OpenPages</strong>, aligned with <strong>SOX, COSO and ISO 37301</strong> — foundation for mapping <strong>200+ regulations</strong> (SUSEP/ANS/BACEN/LGPD) in the Compliance transformation programme of a <strong>Top 5 BR</strong> insurer."
-      highlights: []
-      stack: "IBM OpenPages · SOX · COSO · ISO 37301"
-      metrics: ""
     - name: "Corporate Risk Heatmap (IBM OpenPages + Python)"
-      status: "Delivered (EY)"
-      description: "200+ regulations (SUSEP/ANS/BACEN/LGPD) integrated via Python ETL; quarterly risk reporting reduced from <strong>16h → 8min (−99%)</strong>. Interactive visualisation integrating probability × impact × regulatory criticality in Power BI. Adopted by the client as the reporting standard for working groups and replicated across 3 additional EY engagements."
+      status: ""
+      description: "Executive panel that answers \"where is our risk?\" at a glance: 200+ regulations crossed by probability, impact and regulatory criticality, fed automatically."
       highlights: []
       stack: "Python · IBM OpenPages · Power BI · SQL Server"
       metrics: ""
-    - name: "BACEN Regulatory Advisory — Banking (Traditional & Digital)"
-      status: "Delivered (EY)"
-      description: "<strong>BACEN</strong> regulatory compliance advisory for banks and fintechs: adherence analysis to <strong>Res. 4.557</strong> (Risk Management), <strong>4.658</strong> (Cybersecurity) and <strong>4.595</strong> (Open Banking); internal controls mapping for <strong>SOX</strong> and Operational Risk frameworks; support in regulatory due diligence and <strong>Third-Party Risk Assessment</strong>."
-      highlights: []
-      stack: "BACEN · SOX · Operational Risk · TPRM"
-      metrics: ""
     - name: "SUSEP Benchmarking Platform"
-      status: "Personal project · v3.2"
-      description: "Analytical intelligence platform for the Brazilian insurance market over <strong>SUSEP open data</strong>: <strong>13+ datasets</strong> integrated via automated ETL (monthly scheduling, Playwright fallback), proprietary <strong>10-pillar</strong> risk score, solvency/loss-ratio/compliance KRIs, sanctioning processes, interactive dashboards and an <strong>AI chat assistant</strong> specialised in the insurance market (LLM integration via OAuth2). JWT + Google OAuth authentication, Free/Pro plan tiers and Docker deployment."
+      status: ""
+      description: "Competitive intelligence for the insurance market built on SUSEP open data: rankings, loss ratios, solvency and sanctioning processes for every insurer in the country, distilled into a proprietary 10-pillar score. 13+ datasets integrated with automatic refresh."
       highlights: []
       stack: "Python · FastAPI · SQLAlchemy · Pandas · Plotly · Docker · LLM/AI Chat"
       metrics: ""
     - name: "Antifraud System"
-      status: "Personal project · MVP (front-end)"
-      description: "Fraud detection and management platform for <strong>life insurance and pension claims</strong>: scoring engine with <strong>44 rules</strong> across 6 dimensions (documentary, temporal, statistical, logical, behavioural and contextual), analysis workflow with graph visualisation, executive dashboards with geographic exposure map and team performance management — featuring MFA, role-based access (analyst/manager/executive/admin) and rule parameterisation, designed from a SUSEP compliance standpoint (algorithmic transparency, auditability)."
+      status: ""
+      description: "Detects and manages fraud in life insurance and pension claims: each claim is scored by rules across 6 dimensions, enters an analysis queue with a graph view of the connections between parties, and feeds executive dashboards of geographic exposure and team performance. Built to withstand audit: algorithmic transparency, audit trails and role-based access."
       highlights: []
       stack: "React · TypeScript · Vite · Tailwind · Radix UI · Recharts"
       metrics: ""
     - name: "Regulatory Intelligence Hub"
-      status: "Personal project · in development"
-      description: "Full-stack GRC platform — a <strong>\"regulatory Bloomberg\"</strong>: automated collection of <strong>SUSEP</strong> regulations (resilient Playwright scraping + Celery scheduling, multi-regulator architecture ready for BACEN/CVM/ANS), <strong>AI enrichment</strong> (automatic summarisation, topic classification and regulatory impact scoring via LLM with heuristic fallback) and a complete GRC workflow: routing by company × area, risk classification, action plans, controls testing and compliance dashboard. Clean Architecture + DDD, JWT/RBAC, append-only audit trail and observability (Prometheus)."
+      status: ""
+      description: "A \"regulatory Bloomberg\": automatically captures SUSEP publications, summarises each regulation and lets you score its impact, and organises the end-to-end response — owner, action plan, control test and compliance dashboard. Architecture ready to extend to BACEN, CVM, ANS and others."
       highlights: []
       stack: "Python · FastAPI · Next.js/TypeScript · PostgreSQL · Celery/Redis · Playwright · OpenAI API · Docker"
       metrics: ""
-    - name: "AIRNC — Regulatory Norms Analysis (Compliance)"
-      status: "Personal project · in use"
-      description: "Corporate tool for managing regulatory norms and action plans (<strong>SUSEP</strong> demands): <strong>offline-first, serverless</strong> SPA with corporate network sync via File System Access API (SharePoint), smart merge with dirty-tracking, full audit trail (user/before/after) and a Python ETL that consolidates criticality through a <strong>Frequency × Impact</strong> matrix and generates heatmaps embedded in multi-sheet Excel reports."
+    - name: "Regulatory Norms Analysis (Compliance)"
+      status: ""
+      description: "Corporate tool for managing SUSEP regulations and action plans: runs in the browser with no server, syncs via SharePoint, keeps a full audit trail and consolidates regulation criticality into Probability × Impact embedded in Excel reports."
       highlights: []
-      stack: "JavaScript · SheetJS · Python (pandas · matplotlib · openpyxl) · Power BI"
+      stack: "JavaScript · SheetJS · Python (pandas · matplotlib · openpyxl)"
       metrics: ""
-    - name: "Regulatory Risk Feedback Loop (Retroalimentação)"
-      status: "Personal project · in use"
-      description: "<strong>Regulatory risk feedback</strong> system: recalculates the risk of regulations (5×5 Frequency × Impact matrix) from <strong>real evidence</strong> — infraction notices, internal audits, SUSEP official letters and self-assessments — through an engine of <strong>26 configurable business rules</strong>, comparing base vs. aggravated risk with rule-by-rule traceability. Keyword-learning auto-classification of regulations, GRC weight governance, audit log with diffs and delivery as a <strong>self-contained HTML</strong> file (runs without a server)."
+    - name: "Regulatory Risk Feedback Loop"
+      status: ""
+      description: "Closes the regulatory risk loop: recalculates each regulation's risk from real evidence — infraction notices, internal audits, SUSEP official letters — through configurable rules, showing rule by rule why the risk went up or down."
       highlights: []
       stack: "React 19 · TypeScript · Vite · Tailwind/shadcn · Recharts · Vitest"
       metrics: ""
@@ -392,4 +364,4 @@ en:
       description: "Digital entrepreneurship: creation, launch and management of info-products; content strategy and social media campaigns; audience growth and marketing automation."
     - role: "Autonomous Commerce"
       period: "2010 – 2013"
-      description: "Early professional initiation: informal trade and resale, entrepreneurial mindset development, customer relationship management and basic cash-flow awareness since adolescence."
+      description: "Early professional initiation: informal trade and resale, entrepreneurial mindset development, customer relationship management and basic cash-flow awareness."

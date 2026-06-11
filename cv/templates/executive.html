@@ -35,16 +35,6 @@
 
   <p class="cv-summary">{{ cv.executive_summary }}</p>
 
-  <section class="competencies-block">
-  <h2 class="section">{{ t.competencies }}</h2>
-  {% for group in cv.competencies %}
-  <div class="comp-group">
-    <span class="comp-group-name">{{ group.group }}:</span>
-    <span class="comp-group-list">{{ group.skills | join(' · ') }}</span>
-  </div>
-  {% endfor %}
-  </section>
-
   <h2 class="section">{{ t.experience }}</h2>
   {% for company in cv.experience %}
   <div class="exp-company-block">
@@ -120,6 +110,16 @@
     <li><span class="lang-name">{{ lang.name }}</span> | <span class="lang-level">{{ lang.level }}</span></li>
     {% endfor %}
   </ul>
+
+  <section class="competencies-block">
+  <h2 class="section">{{ t.competencies }}</h2>
+  {% for group in cv.competencies %}
+  <div class="comp-group">
+    <span class="comp-group-name">{{ group.group }}:</span>
+    <span class="comp-group-list">{{ group.skills | join(' · ') }}</span>
+  </div>
+  {% endfor %}
+  </section>
 
   {% if cv.certifications %}
   <h2 class="section">{{ t.certifications }}</h2>
