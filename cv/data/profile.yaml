@@ -171,16 +171,16 @@ pt:
   early_career:
     - role: "Tribunal de Contas do Estado do Piauí (TCE-PI)"
       period: "2017 – 2019"
-      description: "Auditoria governamental de órgãos públicos estaduais; análise de conformidade, controle interno e fiscalização de contratos. Base sólida em auditoria pública e conformidade regulatória que antecede a atuação no setor financeiro privado."
+      description: "Auditoria governamental de órgãos públicos estaduais: conformidade, controle interno e fiscalização de contratos."
     - role: "Auxiliar Contábil / Escritório de Contabilidade"
       period: "2019 – 2022"
-      description: "Conciliações bancárias, escrituração contábil, cumprimento de obrigações acessórias (SPED, DCTF, ECF) e apoio fiscal a pequenas e médias empresas. CRC 1SP336304 ativo desde 2019."
+      description: "Conciliações bancárias, escrituração contábil e obrigações acessórias (SPED, DCTF, ECF) para PMEs. CRC ativo desde 2019."
     - role: "Produtor de Infoprodutos / Social Media"
       period: "2019 – 2020"
-      description: "Empreendedorismo digital: criação, lançamento e gestão de infoprodutos; estratégia de conteúdo e campanhas em redes sociais; desenvolvimento de audiência e automação de marketing."
+      description: "Criação, lançamento e gestão de infoprodutos; estratégia de conteúdo e automação de marketing."
     - role: "Atividades Autônomas (Comércio)"
       period: "2010 – 2013"
-      description: "Iniciação profissional precoce: comércio e revenda informal, desenvolvimento de espírito empreendedor, gestão de relacionamento com clientes e noções de fluxo de caixa."
+      description: "Comércio e revenda; espírito empreendedor e noções de fluxo de caixa."
 
 en:
   identity:
@@ -355,13 +355,13 @@ en:
   early_career:
     - role: "State Audit Court of Piauí (TCE-PI)"
       period: "2017 – 2019"
-      description: "Government audit of state public bodies; compliance analysis, internal controls assessment and contract oversight. Solid foundation in public auditing and regulatory compliance preceding the private financial sector career."
+      description: "Government audit of state public bodies: compliance, internal controls and contract oversight."
     - role: "Accounting Assistant / Accounting Firm"
       period: "2019 – 2022"
-      description: "Bank reconciliations, bookkeeping, ancillary obligations (SPED, DCTF, ECF) and fiscal support for SMEs. CRC 1SP336304 registration active since 2019."
+      description: "Bank reconciliations, bookkeeping and ancillary obligations (SPED, DCTF, ECF) for SMEs. CRC active since 2019."
     - role: "Digital Entrepreneur / Social Media Manager"
       period: "2019 – 2020"
-      description: "Digital entrepreneurship: creation, launch and management of info-products; content strategy and social media campaigns; audience growth and marketing automation."
+      description: "Creation, launch and management of info-products; content strategy and marketing automation."
     - role: "Autonomous Commerce"
       period: "2010 – 2013"
-      description: "Early professional initiation: informal trade and resale, entrepreneurial mindset development, customer relationship management and basic cash-flow awareness."
+      description: "Trade and resale; entrepreneurial mindset and basic cash-flow awareness."
