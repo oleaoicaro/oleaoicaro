@@ -8,7 +8,7 @@
 
 ## Sobre
 
-Sou **Especialista Sênior em Riscos & Compliance (GRC)** no setor financeiro regulado — gestão de riscos, controles internos e compliance regulatório, com ponte entre os regimes prudenciais de **seguros (SUSEP)** e **bancário (BACEN/CMN)**. Atuo como **Consultor Sênior na EY FSO** (Financial Services Office). Trajetória anterior em auditoria governamental (TCE-PI), contabilidade (CRC ativo, 1SP336304) e projetos próprios em **fintech / regtech** com camada de dados e IA.
+Sou **Information Security Analyst III no Bradesco**, atuando em segurança da informação no maior ecossistema bancário privado do país. Chego à área de Security com uma base de mais de **7 anos em gestão de riscos, controles internos e compliance regulatório** no setor financeiro (EY FSO — seguradoras Top 5, conglomerado bancário Top 3 e saúde), onde liderei a implementação do GRC corporativo (**IBM OpenPages**) de uma seguradora Top 5, com mais de **200 normas mapeadas** (SUSEP, BACEN, ANS, ANPD). Trabalho com frameworks de segurança e controle (**ISO 27001, NIST CSF, COBIT 2019, LGPD, CMN 4.893/Cibersegurança**) e integro essa leitura regulatória com **automação em dados e IA** (Python, Power BI). Trajetória anterior em auditoria governamental (TCE-PI) e contabilidade (**CRC ativo**, 1SP336304), além de projetos próprios em **fintech / regtech**.
 
 Este repositório é a **infraestrutura** que sustenta meu reposicionamento profissional: o currículo é gerado a partir de dados estruturados (YAML) com templates Jinja2 + WeasyPrint, e o outreach segue um plano operacional com KPIs semanais.
 
@@ -27,7 +27,7 @@ Tudo que você precisa para avaliar minha aderência a uma vaga está em **um ú
 | 🎓 Cursos & Certificações | [`cv/Cursos_e_Certificacoes.md`](cv/Cursos_e_Certificacoes.md) | **284 treinamentos (2022–2026)** organizados por área temática — destaques em GenAI, AML, LGPD, Banking & Insurance |
 | 📊 Planilha de cursos | [`cv/Cursos_e_Certificacoes.csv`](cv/Cursos_e_Certificacoes.csv) | Mesma listagem, filtrável em Excel/Google Sheets |
 
-> **Em uma frase**: 7+ anos em GRC/Compliance no setor financeiro regulado (EY FSO, Top 5 seguradoras, Top 3 conglomerados BR), com ponte regulatória **SUSEP 638/2021 ↔ CMN 4.893 / BACEN 4.557**, track record em SOX, COSO, ISO 37301, IBM OpenPages e frameworks de controle (ISO 27001, NIST CSF, COBIT 2019), além de automação (Python · Power BI) e governança de IA (ISO/IEC 42001). CRC ativo (1SP336304).
+> **Em uma frase**: Information Security Analyst III no **Bradesco**, com 15 anos de trajetória profissional e 7+ em gestão de riscos, compliance e auditoria interna no setor financeiro regulado (EY FSO — Top 5 seguradoras, Top 3 conglomerado bancário BR e saúde) — liderança na implementação de GRC corporativo (**IBM OpenPages**, 200+ normas SUSEP/BACEN/ANS/ANPD), track record em **ISO 27001, NIST CSF, LGPD, SOX, COSO e ISO 37301**, com automação (Python · Power BI) e governança de IA (ISO/IEC 42001). CRC ativo (1SP336304); rota de certificações 2026–2029: **CRISC → CISA → CISSP → CISM** (ver [roadmap de carreira](docs/roadmap-carreira-si.md)).
 
 ## O que mais tem aqui
 
@@ -40,6 +40,7 @@ O restante deste repositório é **infraestrutura** que sustenta o portfólio ac
 | [`ai-job-agent/`](ai-job-agent/) | Submódulo: agente externo de candidaturas no LinkedIn ([AkbarDevop/ai-job-agent](https://github.com/AkbarDevop/ai-job-agent)). | [docs/AI-JOB-AGENT.md](docs/AI-JOB-AGENT.md) |
 | [`config/`](config/) | Templates de configuração para o agente (credenciais, perfil, banco de respostas) — arquivos reais ficam fora do git. | — |
 | [`docs/`](docs/) | Documentação operacional + `archive/` com histórico do projeto e dados-fonte dos cursos. | [docs/archive/README.md](docs/archive/README.md) |
+| [`docs/roadmap-carreira-si.md`](docs/roadmap-carreira-si.md) | **Roadmap de carreira em Segurança da Informação** (2026–2031): diagnóstico vs. topo do mercado, rota de certificações (CRISC → CISA → CISSP → CISM) e cronograma por fases. | — |
 | [`docs/AI-CONTEXT.md`](docs/AI-CONTEXT.md) | **Contexto para agentes de IA**: consolidação das capacidades técnicas e de IA demonstradas em todos os repositórios do portfólio (`regulatoryintelligencehub`, `susep-benchmarking`, `Antifraudsystem`, `retroalimentacao`, `compliance`) — permite que uma IA trabalhando só com este repositório entenda o portfólio completo. | [docs/AI-CONTEXT.md](docs/AI-CONTEXT.md) |
 
 ## Quickstart — Gerar o currículo
@@ -77,6 +78,6 @@ Saída em [`cv/output/`](cv/output/). Detalhes (paleta, fontes, fallback Playwri
 
 ## About (English)
 
-Personal repository of **Ícaro Vieira Leão** — Senior Risk & Compliance (GRC) specialist in the regulated financial sector (EY FSO), bridging insurance (SUSEP) and banking (BACEN/CMN) prudential regimes. Hosts an automated executive CV builder (PT/EN, HTML + PDF) driven by a single YAML source, a 4-week outreach playbook, and a LinkedIn auto-apply agent integration.
+Personal repository of **Ícaro Vieira Leão** — Information Security Analyst III at **Bradesco**, building on 7+ years in risk management, internal controls and regulatory compliance across Brazil's regulated financial sector (EY FSO — Top 5 insurers, a Top 3 banking conglomerate and health operators), where he led the corporate GRC implementation (IBM OpenPages) at a Top 5 insurer, mapping 200+ regulations (SUSEP, BACEN, ANS, ANPD). Works with security and control frameworks (ISO 27001, NIST CSF, COBIT 2019, LGPD) combined with data and AI automation (Python, Power BI). Active CRC. Hosts an automated executive CV builder (PT/EN, HTML + PDF) driven by a single YAML source, a 4-week outreach playbook, and a LinkedIn auto-apply agent integration.
 
 Generated CV (English): [`cv/output/Icaro_Leao_CV_EN.pdf`](cv/output/Icaro_Leao_CV_EN.pdf) · Courses & Certifications (PT, 284 trainings 2022–2026): [`cv/Cursos_e_Certificacoes.md`](cv/Cursos_e_Certificacoes.md) · LinkedIn: [linkedin.com/in/oleaoicaro](https://www.linkedin.com/in/oleaoicaro)

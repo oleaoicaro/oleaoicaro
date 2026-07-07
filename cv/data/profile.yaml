@@ -8,7 +8,7 @@ pt:
     linkedin: "linkedin.com/in/oleaoicaro"
     github: "github.com/oleaoicaro"
 
-  headline: "Especialista em Riscos, Controles Internos & Compliance Regulatório | Setor Financeiro — Seguros · Banking · Saúde | Consultor Sênior na EY (FSO) | CRC ativo 1SP336304"
+  headline: "Information Security Analyst III no Bradesco | Segurança da Informação · Riscos · Compliance Regulatório | Setor Financeiro — Banking · Seguros · Saúde | CRC ativo 1SP336304"
 
   executive_summary: >
     15 anos de trajetória profissional, sendo mais de 7 em gestão de riscos, compliance
@@ -82,20 +82,27 @@ pt:
       year: 2019
 
   certifications_in_progress:
-    label: "Em andamento (2026–2028)"
+    label: "Em andamento e planejadas (2026–2029)"
     certs:
-      - "ISO 37301 Lead Implementer (PECB)"
       - "CRISC (ISACA)"
       - "CISA (ISACA)"
-      - "CPA-20 (ANBIMA)"
-      - "COBIT 2019 Foundation (ISACA)"
+      - "CISSP (ISC²)"
+      - "CISM (ISACA)"
+      - "ISO 37301 Lead Implementer (PECB)"
 
   experience:
+    - company: "Banco Bradesco"
+      period: "2026 – Presente"
+      roles:
+        - title: "Information Security Analyst III"
+          period: "jul/2026 – presente"
+          client: "Segurança da Informação | Banco múltiplo Top 3 Brasil"
+          bullets: []
     - company: "Ernst & Young (EY)"
-      period: "2022 – Presente"
+      period: "2022 – 2026"
       roles:
         - title: "Consultor Sênior | Risk & Compliance"
-          period: "ago/2025 – presente"
+          period: "ago/2025 – jul/2026"
           client: "Seguradora de Ramos Elementares | Programa Plurianual de Transformação de Compliance"
           bullets:
             - "Coordenei o programa plurianual de transformação de Compliance de uma seguradora <strong>Top 5 Brasil</strong>, com equipe de 5+ profissionais e reporte direto ao C-Level"
@@ -192,7 +199,7 @@ en:
     linkedin: "linkedin.com/in/oleaoicaro"
     github: "github.com/oleaoicaro"
 
-  headline: "Risk, Internal Controls & Regulatory Compliance Specialist | Financial Services — Insurance · Banking · Health | Senior Consultant at EY (FSO) | Active CRC 1SP336304"
+  headline: "Information Security Analyst III at Bradesco | Information Security · Risk · Regulatory Compliance | Financial Services — Banking · Insurance · Health | Active CRC 1SP336304"
 
   executive_summary: >
     15 years of professional experience, more than 7 of them in risk management,
@@ -266,20 +273,27 @@ en:
       year: 2019
 
   certifications_in_progress:
-    label: "In progress (2026–2028)"
+    label: "In progress and planned (2026–2029)"
     certs:
-      - "ISO 37301 Lead Implementer (PECB)"
       - "CRISC (ISACA)"
       - "CISA (ISACA)"
-      - "CPA-20 (ANBIMA)"
-      - "COBIT 2019 Foundation (ISACA)"
+      - "CISSP (ISC²)"
+      - "CISM (ISACA)"
+      - "ISO 37301 Lead Implementer (PECB)"
 
   experience:
+    - company: "Banco Bradesco"
+      period: "2026 – Present"
+      roles:
+        - title: "Information Security Analyst III"
+          period: "Jul/2026 – Present"
+          client: "Information Security | Top 3 Brazil banking conglomerate"
+          bullets: []
     - company: "Ernst & Young (EY)"
-      period: "2022 – Present"
+      period: "2022 – 2026"
       roles:
         - title: "Senior Consultant | Risk & Compliance"
-          period: "Aug/2025 – Present"
+          period: "Aug/2025 – Jul/2026"
           client: "Property & Casualty Insurance Company | Multi-Year Compliance Transformation Programme"
           bullets:
             - "Coordinated the multi-year Compliance transformation programme of a <strong>Top 5 Brazil</strong> insurer, with a team of 5+ professionals and direct reporting to C-Level"
