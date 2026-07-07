@@ -82,13 +82,13 @@ pt:
       year: 2019
 
   certifications_in_progress:
-    label: "Em andamento (2026–2028)"
+    label: "Em andamento e planejadas (2026–2029)"
     certs:
-      - "ISO 37301 Lead Implementer (PECB)"
       - "CRISC (ISACA)"
       - "CISA (ISACA)"
-      - "CPA-20 (ANBIMA)"
-      - "COBIT 2019 Foundation (ISACA)"
+      - "CISSP (ISC²)"
+      - "CISM (ISACA)"
+      - "ISO 37301 Lead Implementer (PECB)"
 
   experience:
     - company: "Banco Bradesco"
@@ -273,13 +273,13 @@ en:
       year: 2019
 
   certifications_in_progress:
-    label: "In progress (2026–2028)"
+    label: "In progress and planned (2026–2029)"
     certs:
-      - "ISO 37301 Lead Implementer (PECB)"
       - "CRISC (ISACA)"
       - "CISA (ISACA)"
-      - "CPA-20 (ANBIMA)"
-      - "COBIT 2019 Foundation (ISACA)"
+      - "CISSP (ISC²)"
+      - "CISM (ISACA)"
+      - "ISO 37301 Lead Implementer (PECB)"
 
   experience:
     - company: "Banco Bradesco"

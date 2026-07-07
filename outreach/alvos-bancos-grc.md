@@ -24,7 +24,7 @@ O repositório mantém **um CV mestre** (PT/EN) em [`cv/output/`](../cv/output/)
 | Controles Internos (Regulatório) | controles internos · SOX · COSO · design & efetividade | 60+ controles testados · análise de causa-raiz · SOX |
 | Risco Operacional | risco operacional · ERM · KRI · automação de dados | heatmap de riscos · 16h→8min · 200+ normas · Power BI |
 | Gestão de Riscos / LGPD | gestão de riscos · framework de riscos · LGPD/privacidade | BACEN 4.557 · TPRM · LGPD · 22 KRIs |
-| Compliance — Banking & Mercado de Capitais | BACEN/CVM · TPRM · due diligence | TPRM · due diligence regulatória · CPA-20 (em andamento) |
+| Compliance — Banking & Mercado de Capitais | BACEN/CVM · TPRM · due diligence | TPRM · due diligence regulatória · CRISC (em rota) |
 
 ## Lista-alvo (banco → vaga)
 
