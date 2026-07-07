@@ -94,4 +94,4 @@ Hierarquia de valor para a rota BISO/CISO: **CISM ≈ CISSP > CRISC > CISA**. O 
 
 ---
 
-*Documento vivo — atualizar marcos concluídos e datas a cada revisão semestral (jan/jul).*
+*Documento vivo — atualizar marcos concluídos e datas a cada revisão semestral (jan/jul). Horizonte estendido (2031–2036, nível referência global): ver [Visão 2036](visao-2036.md).*
