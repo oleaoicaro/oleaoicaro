@@ -8,7 +8,7 @@
 
 ## 1. Quem é o autor (resumo de 30 segundos)
 
-**Ícaro Vieira Leão** — Especialista Sênior em Riscos & Compliance (GRC) no setor financeiro regulado, Consultor Sênior na EY FSO. CRC ativo (1SP336304). Perfil híbrido raro: **fluência regulatória profunda (SUSEP, BACEN, ANS, LGPD, SOX, COSO, ISO 37301) combinada com capacidade real de construir software** — não apenas "usa ferramentas", mas projeta e implementa sistemas full-stack completos com integração de IA, do scraping ao deploy.
+**Ícaro Vieira Leão** — Especialista em Riscos, Controles Internos & Compliance Regulatório no setor financeiro regulado (Seguros · Banking · Saúde), Consultor Sênior | Risk & Compliance na EY FSO. CRC ativo (1SP336304). Perfil híbrido raro: **fluência regulatória profunda (SUSEP, BACEN, ANS, LGPD, SOX, COSO, ISO 37301) combinada com capacidade real de construir software** — não apenas "usa ferramentas", mas projeta e implementa sistemas full-stack completos com integração de IA, do scraping ao deploy.
 
 A tese central do portfólio: **ele constrói, com auxílio de IA, as ferramentas de GRC/regtech que normalmente exigiriam um time de engenharia** — e o faz com critério de compliance embutido (auditabilidade, rastreabilidade, RBAC, LGPD) porque esse é o seu domínio profissional.
 
