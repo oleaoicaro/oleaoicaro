@@ -41,6 +41,7 @@ O restante deste repositório é **infraestrutura** que sustenta o portfólio ac
 | [`config/`](config/) | Templates de configuração para o agente (credenciais, perfil, banco de respostas) — arquivos reais ficam fora do git. | — |
 | [`docs/`](docs/) | Documentação operacional + `archive/` com histórico do projeto e dados-fonte dos cursos. | [docs/archive/README.md](docs/archive/README.md) |
 | [`docs/roadmap-carreira-si.md`](docs/roadmap-carreira-si.md) | **Roadmap de carreira em Segurança da Informação** (2026–2031): diagnóstico vs. topo do mercado, rota de certificações (CRISC → CISA → CISSP → CISM) e cronograma por fases. | — |
+| [`docs/visao-2036.md`](docs/visao-2036.md) | **Visão 2036** — horizonte estendido do roadmap: os 9 passos rumo ao nível de referência global (tese própria, construção em público, contribuição original, cargos estratégicos). | — |
 | [`docs/AI-CONTEXT.md`](docs/AI-CONTEXT.md) | **Contexto para agentes de IA**: consolidação das capacidades técnicas e de IA demonstradas em todos os repositórios do portfólio (`regulatoryintelligencehub`, `susep-benchmarking`, `Antifraudsystem`, `retroalimentacao`, `compliance`) — permite que uma IA trabalhando só com este repositório entenda o portfólio completo. | [docs/AI-CONTEXT.md](docs/AI-CONTEXT.md) |
 
 ## Quickstart — Gerar o currículo
