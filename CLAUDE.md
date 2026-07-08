@@ -9,8 +9,8 @@ Este é o repositório **público** de portfólio e infraestrutura de carreira d
    projetos do portfólio. Leia antes de gerar qualquer material de carreira.
 2. **`cv/data/profile.yaml`** — fonte canônica dos dados do CV (PT + EN).
    Em divergência factual, o YAML prevalece.
-3. **`docs/roadmap-carreira-si.md`** — roadmap de carreira 2026–2031
-   (versão canônica) e **`docs/visao-2036.md`** — horizonte estendido.
+3. Documentos estratégicos de carreira (roadmap, visão de longo prazo) são
+   **privados** e não pertencem a este repositório — não recriá-los aqui.
 
 ## Regras
 

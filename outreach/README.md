@@ -4,9 +4,9 @@
 > resultou na contratação como **Information Security Analyst III no
 > Bradesco** (admissão 13/jul/2026). O material permanece como playbook
 > testado e aprovado — próxima janela de reativação prevista: candidaturas
-> internacionais a partir de meados de **2030**
-> ([roadmap, Fase 4](../docs/roadmap-carreira-si.md)), quando os templates
-> em EN e o ICP "Fintech Global" voltam ao centro.
+> internacionais a partir de meados de **2030** (Fase 4 do roadmap de
+> carreira), quando os templates em EN e o ICP "Fintech Global" voltam
+> ao centro.
 
 Material de apoio à execução do plano de outreach de 4 semanas (Fase 6 do projeto de reposicionamento de carreira).
 
