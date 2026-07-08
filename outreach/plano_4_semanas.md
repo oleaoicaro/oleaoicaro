@@ -1,5 +1,10 @@
 # Plano de Outreach — 4 Semanas
 
+> **Status: ✅ concluído (jul/2026)** — desfecho: oferta aceita no
+> **Bradesco** (Information Security Analyst III, admissão 13/jul/2026).
+> Plano arquivado como referência; ver nota de reativação no
+> [README](README.md).
+
 **Objetivo:** converter as 7 vagas-alvo do ranking final (Fase 2) em pelo menos 3 entrevistas e 1 oferta ≥ R$ 15k/mês nos próximos 30 dias.
 
 **Perfil-base:** Consultor Sênior Risk & Compliance @ EY · IBM OpenPages · Python/FastAPI · Governança de IA · TPRM · SUSEP/ANS/PREVIC.
