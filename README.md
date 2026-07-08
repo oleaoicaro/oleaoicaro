@@ -27,7 +27,7 @@ Tudo que você precisa para avaliar minha aderência a uma vaga está em **um ú
 | 🎓 Cursos & Certificações | [`cv/Cursos_e_Certificacoes.md`](cv/Cursos_e_Certificacoes.md) | **284 treinamentos (2022–2026)** organizados por área temática — destaques em GenAI, AML, LGPD, Banking & Insurance |
 | 📊 Planilha de cursos | [`cv/Cursos_e_Certificacoes.csv`](cv/Cursos_e_Certificacoes.csv) | Mesma listagem, filtrável em Excel/Google Sheets |
 
-> **Em uma frase**: Information Security Analyst III no **Bradesco**, com 15 anos de trajetória profissional e 7+ em gestão de riscos, compliance e auditoria interna no setor financeiro regulado (EY FSO — Top 5 seguradoras, Top 3 conglomerado bancário BR e saúde) — liderança na implementação de GRC corporativo (**IBM OpenPages**, 200+ normas SUSEP/BACEN/ANS/ANPD), track record em **ISO 27001, NIST CSF, LGPD, SOX, COSO e ISO 37301**, com automação (Python · Power BI) e governança de IA (ISO/IEC 42001). CRC ativo (1SP336304); rota de certificações 2026–2029: **CRISC → CISA → CISSP → CISM** (ver [roadmap de carreira](docs/roadmap-carreira-si.md)).
+> **Em uma frase**: Information Security Analyst III no **Bradesco**, com 15 anos de trajetória profissional e 7+ em gestão de riscos, compliance e auditoria interna no setor financeiro regulado (EY FSO — Top 5 seguradoras, Top 3 conglomerado bancário BR e saúde) — liderança na implementação de GRC corporativo (**IBM OpenPages**, 200+ normas SUSEP/BACEN/ANS/ANPD), track record em **ISO 27001, NIST CSF, LGPD, SOX, COSO e ISO 37301**, com automação (Python · Power BI) e governança de IA (ISO/IEC 42001). CRC ativo (1SP336304); rota de certificações 2026–2029: **CRISC → CISA → CISSP → CISM**.
 
 ## O que mais tem aqui
 
@@ -40,8 +40,6 @@ O restante deste repositório é **infraestrutura** que sustenta o portfólio ac
 | [`ai-job-agent/`](ai-job-agent/) | Submódulo: agente externo de candidaturas no LinkedIn ([AkbarDevop/ai-job-agent](https://github.com/AkbarDevop/ai-job-agent)). | [docs/AI-JOB-AGENT.md](docs/AI-JOB-AGENT.md) |
 | [`config/`](config/) | Templates de configuração para o agente (credenciais, perfil, banco de respostas) — arquivos reais ficam fora do git. | — |
 | [`docs/`](docs/) | Documentação operacional + `archive/` com histórico do projeto e dados-fonte dos cursos. | [docs/archive/README.md](docs/archive/README.md) |
-| [`docs/roadmap-carreira-si.md`](docs/roadmap-carreira-si.md) | **Roadmap de carreira em Segurança da Informação** (2026–2031): diagnóstico vs. topo do mercado, rota de certificações (CRISC → CISA → CISSP → CISM) e cronograma por fases. | — |
-| [`docs/visao-2036.md`](docs/visao-2036.md) | **Visão 2036** — horizonte estendido do roadmap: os 9 passos rumo ao nível de referência global (tese própria, construção em público, contribuição original, cargos estratégicos). | — |
 | [`docs/AI-CONTEXT.md`](docs/AI-CONTEXT.md) | **Contexto para agentes de IA**: consolidação das capacidades técnicas e de IA demonstradas em todos os repositórios do portfólio (`regulatoryintelligencehub`, `susep-benchmarking`, `Antifraudsystem`, `retroalimentacao`, `compliance`) — permite que uma IA trabalhando só com este repositório entenda o portfólio completo. | [docs/AI-CONTEXT.md](docs/AI-CONTEXT.md) |
 
 ## Quickstart — Gerar o currículo
