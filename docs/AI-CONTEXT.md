@@ -39,7 +39,7 @@ Onde LLM não é apropriado (decisões auditáveis de risco), ele projeta **moto
 - auto-classificação leve por aprendizado de keywords a partir de exemplos manuais (sem dependência de API externa).
 
 ### 2.5 Governança de IA
-- Formação em andamento: graduação em **Análise de Dados com foco em IA**; estudo de **ISO/IEC 42001** (AI Management Systems).
+- Formação em andamento: graduação em **Ciência de Dados**; estudo de **ISO/IEC 42001** (AI Management Systems).
 - Padrão consistente nos projetos: IA **assistiva, nunca decisória sem supervisão** — toda mudança de risco é auditada, overrides exigem justificativa, fallbacks determinísticos existem para quando a IA falha. Isso reflete a postura profissional dele sobre IA em ambientes regulados.
 
 ## 3. Os repositórios, um a um
