@@ -163,7 +163,7 @@ pt:
       metrics: ""
 
   education:
-    - degree: "Graduação em Análise de Dados com foco em IA"
+    - degree: "Graduação em Ciência de Dados"
       institution: "Descomplica Faculdade Digital"
       period: "jul/2024 – jan/2027 (em andamento)"
     - degree: "Bacharelado em Ciências Contábeis"
@@ -354,7 +354,7 @@ en:
       metrics: ""
 
   education:
-    - degree: "B.Sc. in Data Analysis with AI focus"
+    - degree: "B.Sc. in Data Science"
       institution: "Descomplica Faculdade Digital"
       period: "Jul/2024 – Jan/2027 (in progress)"
     - degree: "B.Sc. in Accounting Sciences"
