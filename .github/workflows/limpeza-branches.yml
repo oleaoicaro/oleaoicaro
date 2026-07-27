@@ -2,12 +2,12 @@ name: Limpeza de branches
 
 # Política de branch única (decisão 2026-07-27, Jarvis/memoria/decisoes.md):
 # o repositório mantém apenas a branch padrão. Este workflow apaga todas as
-# demais branches — mas SÓ as que já estão 100% mescladas na padrão.
-# Branch com commit não mesclado nunca é apagada: ela é listada no resumo
-# da execução para decisão manual (nada se perde sem trilha).
+# demais branches — por padrão, SÓ as que já estão 100% mescladas na padrão.
 #
-# Disparo manual (Actions → Limpeza de branches → Run workflow) ou pelo
-# Jarvis via API. Exige confirmação explícita para evitar disparo acidental.
+# Modo forçado (forcar=SIM): apaga TAMBÉM branches com commits não mesclados.
+# Irreversível — usar apenas com autorização explícita do Ícaro. O resumo da
+# execução registra o SHA da ponta de cada branch forçada (trilha de
+# recuperação enquanto o commit não for coletado pelo GC do GitHub).
 
 on:
   workflow_dispatch:
@@ -15,6 +15,10 @@ on:
       confirmar:
         description: 'Digite SIM para apagar as branches extras já mescladas'
         required: true
+        default: 'NAO'
+      forcar:
+        description: 'Digite SIM para apagar TAMBÉM branches com trabalho não mesclado (irreversível)'
+        required: false
         default: 'NAO'
 
 permissions:
@@ -29,22 +33,28 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Apagar branches mescladas (preservar as não mescladas)
+      - name: Apagar branches (preservar não mescladas, salvo modo forçado)
         shell: bash
         run: |
           set -euo pipefail
           git fetch origin --prune
           PADRAO='${{ github.event.repository.default_branch }}'
+          FORCAR='${{ inputs.forcar }}'
           apagadas=()
+          forcadas=()
           preservadas=()
           for ref in $(git for-each-ref --format='%(refname)' refs/remotes/origin); do
             b="${ref#refs/remotes/origin/}"
             [ "$b" = "$PADRAO" ] && continue
             [ "$b" = "HEAD" ] && continue
             pendentes=$(git rev-list --count "origin/$PADRAO..origin/$b")
+            ponta=$(git rev-parse "origin/$b")
             if [ "$pendentes" -eq 0 ]; then
               git push origin --delete "$b"
               apagadas+=("$b")
+            elif [ "$FORCAR" = "SIM" ]; then
+              git push origin --delete "$b"
+              forcadas+=("$b — $pendentes commit(s) não mesclado(s), ponta \`$ponta\`")
             else
               preservadas+=("$b ($pendentes commit(s) não mesclado(s))")
             fi
@@ -54,8 +64,11 @@ jobs:
             echo
             echo "Branch padrão preservada: \`$PADRAO\`"
             echo
-            echo "### Apagadas (${#apagadas[@]})"
+            echo "### Apagadas já mescladas (${#apagadas[@]})"
             for b in "${apagadas[@]}"; do echo "- \`$b\`"; done
+            echo
+            echo "### Apagadas em modo forçado, com trabalho não mesclado (${#forcadas[@]})"
+            for b in "${forcadas[@]}"; do echo "- 🗑️ $b"; done
             echo
             echo "### Preservadas por terem trabalho não mesclado (${#preservadas[@]})"
             for b in "${preservadas[@]}"; do echo "- ⚠️ \`$b\`"; done
